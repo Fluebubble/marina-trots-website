@@ -26,6 +26,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
+  // height: 100%;
 }
 
 /*
@@ -270,4 +271,27 @@ Add the correct display in Chrome and Safari.
 
 summary {
   display: list-item;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-family: 'Montserrat', Times, serif;
+  text-decoration: none;
+  &:link {
+    color: #000000;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
 }

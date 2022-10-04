@@ -1,0 +1,42 @@
+body {
+    background-image: url(../img/elements/background-mobile.jpg);
+    // background-size: 100% auto;
+    background-size: cover;
+    // // background-position: right top;
+    background-repeat: no-repeat;
+  
+    @media screen and (min-width:1200px) {
+        background-image: url(../img/elements/background.png);
+        
+    }
+  
+}
+.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media screen and (min-width:1200px) {
+        width: 1170px;
+        // max-width: 1200px;
+        margin: 0 auto;
+        
+    }
+}
+.section {
+    padding: 25 0 25;
+}

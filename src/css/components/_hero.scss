@@ -1,0 +1,117 @@
+.section__hero {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-box {
+  // margin-left: 30px;
+  width: 340px;
+  height: 112px;
+  background-image: url(../img/hero/main-title-bg-mobile.svg);
+  // background-size: 340px 112px;
+
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    width: 340px;
+    height: 112px;
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.07));
+    &__light-blue {
+      // background: #75c3e0;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 44px;
+  color: #ffffff;
+  font-size: 37px;
+  text-transform: uppercase;
+
+  padding-left: 25px;
+  padding-top: 15px;
+
+  @media screen and (min-width: 1200px) {
+    line-height: 60px;
+    font-size: 44px;
+    padding-left: 37.83px;
+    padding-top: 10px;
+  }
+
+  &__part {
+    line-height: 41px;
+    font-size: 30px;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: -20px;
+      font-size: 35px;
+    }
+  }
+}
+
+.bullets-container {
+  // position: absolute;
+  top: 670px;
+  display: flex;
+  flex-direction: column;
+  // margin-left: 30px;
+}
+
+.quote-container {
+  width: 390px;
+  height: 68px;
+  padding: 12px 11px;
+  margin-bottom: 10px;
+  // margin-bottom: 25px;
+  background: #75c3e0;
+  border-radius: 15px;
+
+  &__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.bullets-list {
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+  flex-wrap: wrap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.7027px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+
+  &__item {
+    display: flex;
+    // flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+    width: 190px;
+    height: 64px;
+
+    background: #75b5b0;
+    border-radius: 15.5px;
+  }
+}
+
+.hero-photo {
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
+  // margin-left: 30px;
+  margin-top: 25px;
+}
