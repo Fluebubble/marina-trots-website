@@ -11,6 +11,7 @@
   height: 112px;
   background-image: url(../img/hero/main-title-bg-mobile.svg);
   // background-size: 340px 112px;
+  margin-bottom: 10px;
 
   @media screen and (min-width: 1200px) {
     position: relative;
@@ -95,6 +96,7 @@
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 10px;
 
   &__item {
     display: flex;
@@ -113,5 +115,5 @@
 .hero-photo {
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
   // margin-left: 30px;
-  margin-top: 25px;
+  // margin-top: 25px;
 }
