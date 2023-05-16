@@ -1,5 +1,6 @@
 body {
-    background-image: url(../img/elements/background-mobile.jpg);
+    // background-image: url(../img/elements/background-mobile.jpg);
+    background-color: aqua;
     // background-size: 100% auto;
     background-size: cover;
     // // background-position: right top;
@@ -29,7 +30,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
+    width: 480px;
     @media screen and (min-width:1200px) {
         width: 1170px;
         // max-width: 1200px;

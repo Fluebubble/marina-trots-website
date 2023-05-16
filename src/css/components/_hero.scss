@@ -1,8 +1,8 @@
 .section__hero {
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .title-box {
@@ -65,7 +65,8 @@
 }
 
 .quote-container {
-  width: 390px;
+  // width: 390px;
+  width: 100%;
   height: 68px;
   padding: 12px 11px;
   margin-bottom: 10px;
@@ -106,6 +107,7 @@
 
     width: 190px;
     height: 64px;
+    flex-basis: 190px;
 
     background: #75b5b0;
     border-radius: 15.5px;
