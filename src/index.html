@@ -14,8 +14,8 @@
     <title>Психолог Марина Троц</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container container__header">
         <ul class="socials">
           <li class="socials__item">
             <a href="#" class="socials__link"
@@ -46,8 +46,10 @@
           <p class="phone__cta">Остались вопросы? Звоните!</p>
           <span class="phone__number">+38 063 109 58 44</span>
         </a>
-      </header>
-      <section class="section">
+      </div>
+    </header>
+    <section class="section">
+      <div class="container">
         <div class="section__hero">
           <div class="title-box">
             <h1 class="title">
@@ -65,24 +67,29 @@
               <li class="bullets-list__item">+23 000 часов консультаций</li>
               <li class="bullets-list__item">онлайн и офлайн прием</li>
             </ul>
-            <form
-              name="contact-form"
-              class="contact-form contact-form__hero is-hidden"
-            >
-              <input type="number" class="contact-form__input" />
-              <button type="submit" class="contact-form__button">
-                Оставить заявку
-              </button>
-            </form>
           </div>
           <img
             src="img/hero/main-photo-mobile.jpg"
             alt="Марина Троц"
             class="hero-photo"
           />
+          <form
+            name="contact-form"
+            class="contact-form contact-form__hero "
+          >
+            <input type="number" class="contact-form__input" placeholder="Ваш номер" />
+            <button type="submit" class="contact-form__button">
+              Оставить заявку
+            </button>
+          </form>
+          <!-- <form>
+            <input type="text" />
+            <button type="button">Оставить заявку</button>
+          </form> -->
         </div>
-      </section>
-      <!-- <section class="story-block">
+      </div>
+    </section>
+    <!-- <section class="story-block">
         <div class="title-bg">
           <h2 class="title title--h2">Моя история</h2>
         </div>
@@ -446,6 +453,5 @@
           >
         </div>
       </section> -->
-    </div>
   </body>
 </html>
