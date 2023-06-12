@@ -9,6 +9,9 @@
   @media screen and (min-width: 768px) {
     padding: 0;
   }
+  @media screen and (min-width: 1200px) {
+    margin: 0 110px;
+  }
 }
 
 .title-box {
@@ -26,9 +29,11 @@
     order: unset;
   }
   @media screen and (min-width: 1200px) {
+    margin-top: 32px;
     position: relative;
-    width: 340px;
-    height: 112px;
+    background-image: url(../img/hero/main-title-bg-pc.svg);
+    width: 392.37px;
+    height: 129.53px;
     filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.07));
     &__light-blue {
       // background: #75c3e0;
@@ -54,10 +59,10 @@
     font-size: 40px;
   }
   @media screen and (min-width: 1200px) {
+    padding-top: 15px;
     line-height: 60px;
     font-size: 44px;
-    padding-left: 37.83px;
-    padding-top: 10px;
+    padding-left: 27.83px;
   }
 
   &__part {
@@ -65,7 +70,7 @@
     font-size: 30px;
 
     @media screen and (min-width: 1200px) {
-      margin-bottom: -20px;
+      // margin-bottom: -20px;
       font-size: 35px;
     }
   }
@@ -93,10 +98,19 @@
   // margin-bottom: 25px;
   background: #75c3e0;
   border-radius: 15px;
+
   @media screen and (min-width: 768px) {
     width: 460px;
     font-size: 24px;
   }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    width: 501.65px;
+    height: 97.07px;
+  }
+
   &__text {
     font-family: 'Montserrat';
     font-style: normal;
@@ -107,9 +121,13 @@
     color: #ffffff;
 
     @media screen and (min-width: 768px) {
-      // width: 460px;
       font-size: 24px;
       font-weight: 400;
+    }
+    @media screen and (min-width: 1200px) {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
     }
   }
 }
@@ -129,12 +147,16 @@
   margin-bottom: 10px;
 
   @media screen and (min-width: 768px) {
-    width: 455;
+    width: 455px;
     flex-wrap: nowrap;
     font-weight: 500;
     font-size: 14px;
     margin-bottom: 0;
+    gap: 10px;
     // justify-content: ;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 502px;
   }
 
   &__item {
@@ -154,6 +176,11 @@
       width: 145px;
       height: 55px;
     }
+    @media screen and (min-width: 1200px) {
+      width: 162.9px;
+      height: 59.84px;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -167,6 +194,10 @@
     position: absolute;
     right: 0;
   }
+  @media screen and (min-width: 1200px) {
+    width: 366.26px;
+    height: 445px;
+  }
 
   // margin-left: 30px;
   // margin-top: 25px;
@@ -176,6 +207,10 @@
   display: flex;
   gap: 8px;
   order: 4;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 10px;
+  }
 
   &__input {
     height: 45px;
