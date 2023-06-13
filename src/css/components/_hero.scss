@@ -98,6 +98,7 @@
   // margin-bottom: 25px;
   background: #75c3e0;
   border-radius: 15px;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
 
   @media screen and (min-width: 768px) {
     width: 460px;
@@ -171,6 +172,7 @@
 
     background: #75b5b0;
     border-radius: 15.5px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
 
     @media screen and (min-width: 768px) {
       width: 145px;
@@ -219,6 +221,7 @@
     // padding: 13px 18px 13px 18px;
     border: 1.37px solid #4fa3bd;
     padding: 13px 18px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
 
     &::placeholder {
       font-weight: 400;
@@ -236,14 +239,14 @@
     border: 0 solid #4fa3bd;
     // padding: 14px 16px 14px 16px;
     background: #ff6363;
-
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-
     text-align: center;
 
     color: #ffffff;
+    cursor: pointer;
   }
 }

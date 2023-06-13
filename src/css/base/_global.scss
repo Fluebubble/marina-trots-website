@@ -43,3 +43,25 @@ body {
 .section {
   padding: 25px 0 25px;
 }
+
+.secondary-title-bg {
+  width: 262px;
+  margin: 0 auto;
+  padding: 27px 48px;
+  background: #f0f3ff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
+  border-radius: 40px;
+}
+
+.secondary-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #01208b;
+  
+  margin: 0;
+}
