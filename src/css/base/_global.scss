@@ -31,7 +31,8 @@ body {
 
   @media screen and (min-width: 768px) {
     margin: 0 auto;
-    max-width: 768px;
+    max-width: none;
+    width: 768px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -62,6 +63,6 @@ body {
   text-align: center;
 
   color: #01208b;
-  
+
   margin: 0;
 }
