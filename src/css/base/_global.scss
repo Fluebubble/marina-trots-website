@@ -46,12 +46,14 @@ body {
 }
 
 .secondary-title-bg {
-  width: 262px;
+  // width: 262px;
+  max-width: fit-content;
+  // display: inline-block;
   margin: 0 auto;
   padding: 27px 48px;
   background: #f0f3ff;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
-  border-radius: 40px;
+  border-radius: 100px;
 }
 
 .secondary-title {

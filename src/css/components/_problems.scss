@@ -1,0 +1,36 @@
+.problems-list {
+  display: flex;
+  flex-wrap: wrap;
+//   align-items: center;
+//   justify-content: center;
+  gap: 5px 6px;
+
+  margin-top: 40px;
+
+  &__item {
+    display: flex;
+    width: 222px;
+    height: 62px;
+    // padding: 15px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    gap: 10.435px;
+
+    border-radius: 20px;
+    background: #dfe6ff;
+    box-shadow: 0px 4.347825527191162px 17.39130210876465px 0px
+      rgba(0, 0, 0, 0.07);
+
+    color: #314279;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__item-img {
+    width: 32px;
+    height: 32px;
+  }
+}
