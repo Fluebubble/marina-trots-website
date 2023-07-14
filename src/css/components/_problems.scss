@@ -12,6 +12,13 @@
     margin: 40px auto;
   }
 
+  @media screen and (min-width: 1200px) {
+    gap: 10px;
+    width: auto;
+    margin: 40px auto;
+    gap: 15px 15px;
+  }
+
   &__item {
     display: flex;
     width: 222px;
@@ -37,6 +44,18 @@
     @media screen and (min-width: 768px) {
       display: flex;
       width: 340px;
+      height: 94px;
+      border-radius: 30px;
+      // padding: 15px 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      font-size: 20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      width: 380px;
       height: 94px;
       border-radius: 30px;
       // padding: 15px 20px;
