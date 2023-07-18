@@ -24,7 +24,7 @@
     "notiflix": "^3.2.5",
     "npm": "^8.19.2",
     "parcel-transformer-hbs": "^1.0.3",
-    "simplelightbox": "^2.10.3"
+    "simplelightbox": "^2.14.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
