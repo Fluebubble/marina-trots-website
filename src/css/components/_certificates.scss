@@ -29,3 +29,24 @@
   text-align: center;
   margin: auto auto;
 }
+.certificates-gallery__loadMore-button {
+  margin: 20px auto 0;
+  display: flex;
+  width: 220px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+  background: #dfe6ff;
+  box-shadow: 0px 3.999999761581421px 15.999999046325684px 0px
+    rgba(0, 0, 0, 0.07);
+
+  color: #314279;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
