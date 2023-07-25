@@ -4,6 +4,9 @@
   gap: 10px;
   margin: 40px auto 0;
   flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
 }
 
 .certificates-list__item-link {
@@ -14,6 +17,11 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    width: 364px;
+    min-height: 236px;
+  }
 }
 .certificates-list__image {
   border-radius: inherit;

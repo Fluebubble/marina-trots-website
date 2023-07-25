@@ -1,4 +1,4 @@
-import { lightbox } from './gallery';
+import { lightbox } from './certificates-gallery';
 
 const certificates = [
   //   {
