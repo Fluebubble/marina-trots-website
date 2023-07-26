@@ -52,11 +52,11 @@ showMoreBtn.addEventListener('click', () => {
       item.classList.add('certificates-list__item-link');
       item.href = cert.src;
 
-      item.innerHTML = `<img
+      item.innerHTML = `<div class="certificates-gallery__image-container"><img
             src="${cert.src}"
             alt="${cert.name}"
             class="certificates-list__image"
-          />
+          /></div>
           <p class="certificate-name">
             ${cert.name}
           </p>`;
