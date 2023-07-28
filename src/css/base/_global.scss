@@ -73,3 +73,28 @@ body {
 a:visited {
   color: #314279;
 }
+
+
+.text-bg {
+  margin: 0 auto;
+  width: 450px;
+  padding: 30px;
+  background: #dfe6ff;
+  border-radius: 30px;
+  order: 1;
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    width: 452px;
+    left: 286px;
+  }
+  @media screen and (min-width: 1200px) {
+    // position: absolute;
+    margin: 0 27px 0 0;
+    width: 601px;
+    // left: 485px;
+    left: auto;
+    right: 0;
+    border-radius: 55px;
+    padding: 37.5px 42px;
+  }
+}
