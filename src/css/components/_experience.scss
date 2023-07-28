@@ -5,6 +5,12 @@
   width: 390px;
   margin: 20px auto 0;
   gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    // margin: 40px 0 0;
+    width: auto;
+    margin: 0;
+  }
 }
 
 .preference-list__item {
@@ -17,6 +23,11 @@
   background: #dfe6ff;
   box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px
     rgba(0, 0, 0, 0.07);
+
+  @media screen and (min-width: 768px) {
+    // margin: 40px 0 0;
+    width: 303px;
+  }
 }
 
 .preference-list__item-name {
@@ -24,10 +35,10 @@
   padding-left: 15px;
 
   color: #314279;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .preference-list__item-image {
@@ -36,5 +47,32 @@ line-height: normal;
 }
 
 .text-bg__experience {
-    margin-top: 40px;
+  margin: 0 auto;
+  width: 450px;
+  padding: 30px;
+  background: #dfe6ff;
+  border-radius: 30px;
+  // order: 1;
+  @media screen and (min-width: 768px) {
+    // margin: 40px 0 0;
+    width: 410px;
+    padding: 30px 42px;
+    margin: 0;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.experience-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    // margin: 40px 0 0;
+    // width: 410px;
+  }
 }
