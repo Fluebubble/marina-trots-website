@@ -60,6 +60,7 @@
     margin: 0;
   }
   @media screen and (min-width: 1200px) {
+    width: 495px;
   }
 }
 
@@ -74,5 +75,8 @@
     flex-direction: row;
     // margin: 40px 0 0;
     // width: 410px;
+  }
+  @media screen and (min-width: 1200px) {
+
   }
 }
