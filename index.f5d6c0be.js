@@ -1,2 +1,0 @@
-const e=document.querySelectorAll(".psy-direction-name__button"),i=document.querySelectorAll("[data-type=description]");e[0].addEventListener("click",(()=>{console.log("clicked")})),console.log(e),console.log(i);for(let n=0;n<e.length;n++)e[n].addEventListener("click",(()=>{i[n].classList.contains("is-hidden")?(console.log("contains isHidden"),i[n].classList.replace("is-hidden","psy-direction-description")):(console.log("doesn't contain isHidden"),i[n].classList.replace("psy-direction-description","is-hidden"))}));
-//# sourceMappingURL=index.f5d6c0be.js.map
