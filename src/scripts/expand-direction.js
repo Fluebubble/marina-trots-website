@@ -14,12 +14,14 @@ for (let i = 0; i < buttons.length; i++) {
         'is-hidden',
         'psy-direction-description'
       );
+      descriptions[i].classList.add('position-relative');
     } else {
       console.log(`doesn't contain isHidden`);
       descriptions[i].classList.replace(
         'psy-direction-description',
         'is-hidden'
       );
+      descriptions[i].classList.remove('position-relative');
     }
   });
 }
