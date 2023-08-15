@@ -1,10 +1,10 @@
 const buttons = document.querySelectorAll('.psy-direction-name__button');
 const descriptions = document.querySelectorAll('[data-type=description]');
 buttons[0].addEventListener('click', () => {
-  console.log('clicked');
+  // console.log('clicked');
 });
-console.log(buttons);
-console.log(descriptions);
+// console.log(buttons);
+// console.log(descriptions);
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', () => {
