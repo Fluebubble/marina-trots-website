@@ -1,0 +1,156 @@
+.form {
+  position: relative;
+  z-index: 30;
+  display: flex;
+  width: 452px;
+  padding: 60px 30px;
+  flex-direction: column;
+  //   align-items: center;
+  // gap: 28px;
+
+  margin: 40px auto 0;
+  background: #dfe6ff;
+  border-radius: 55px;
+  box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px
+    rgba(0, 0, 0, 0.33);
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 575px;
+    padding: 60px 43px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.form__cta {
+  margin-bottom: 12px;
+
+  color: #031860;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form__label {
+  margin: 20px 0 15px;
+
+  color: #434c6d;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__input {
+  width: 384px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15.352px;
+  border: 1.535px solid #97bdc9;
+  background: #fff;
+}
+
+.form__button {
+  margin: 30 auto 0;
+  width: 300px;
+  height: 52px;
+
+  background: #ff6363;
+  border-radius: 15px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form__info {
+  margin: 40px auto 0;
+
+  color: #72778a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contacts {
+  z-index: 50;
+  margin: -125px auto;
+  padding: 125px 40px 0;
+  display: flex;
+  flex-direction: column;
+
+  width: 452px;
+  height: 440px;
+  border: 0 hidden;
+
+  border-radius: 55px;
+  background: #dfe6ff;
+  box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px
+    rgba(0, 0, 0, 0.07);
+
+  &__phone-wrapper {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.contacts__phone-cta {
+  margin-top: 30px;
+
+  color: #031860;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+.contacts__messanger-cta {
+  margin-top: 30px;
+
+  color: #031860;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contacts__phone {
+  color: #031860;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.contacts__messanger-list {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__messanger-item {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__messanger-link {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #031860;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}

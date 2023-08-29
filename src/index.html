@@ -812,42 +812,56 @@
         <input class="form__input" type="text" id="name" />
         <label class="form__label" for="number">Ваш телефон</label>
         <input class="form__input" type="text" id="number" />
-        <p>*Ваши данные никуда не передаются</p>
+        <button class="form__button">Оставить заявку</button>
+        <p class="form__info">*Ваши данные никуда не передаются</p>
       </form>
       <address class="contacts">
-        <p class="contacts__cta">Вы можете позвонить мне по телефону:</p>
-        <a href="tel:+38(063)1095844" class="contacts__phone"
-          >+38 (063) 109 58 44</a
-        >
-        <a href="tel:+38(067)2171180" class="contacts__phone"
-          >+38 (067) 217 11 80</a
-        >
-        <p class="contacts__cta">Или написать в удобный для вас мессенджер:</p>
-        <a href="https://t.me/Marinatrots" class="contacts__messanger"
-          ><img
-            class="contacts__messanger-icon"
-            src="./img/svg-icons/telegram.svg"
-            alt="Telegram"
-          />Telegram</a
-        >
-        <a
-          href="viber://chat?number=%2B380631095844"
-          class="contacts__messanger"
-          ><img
-            class="contacts__messanger-icon"
-            src="./img/svg-icons/viber.svg"
-            alt="Viber"
-          />Viber</a
-        >
-        <a
-          href="https://api.whatsapp.com/send?phone=380631095844"
-          class="contacts__messanger"
-          ><img
-            class="contacts__messanger-icon"
-            src="./img/svg-icons/whatapp.svg"
-            alt="WhatsApp"
-          />WhatsApp</a
-        >
+        <p class="contacts__phone-cta">Вы можете позвонить мне по телефону:</p>
+        <div class="contacts__phone-wrapper">
+          <a href="tel:+38(063)1095844" class="contacts__phone"
+            >+38 (063) 109 58 44</a
+          >
+          <a href="tel:+38(067)2171180" class="contacts__phone"
+            >+38 (067) 217 11 80</a
+          >
+        </div>
+
+        <p class="contacts__messanger-cta">
+          Или написать в удобный для вас мессенджер:
+        </p>
+        <ul class="contacts__messanger-list">
+          <li class="contacts__messanger-item">
+            <a href="https://t.me/Marinatrots" class="contacts__messanger-link"
+              ><img
+                class="contacts__messanger-icon"
+                src="./img/svg-icons/telegram.svg"
+                alt="Telegram"
+              />Telegram</a
+            >
+          </li>
+          <li class="contacts__messanger-item">
+            <a
+              href="viber://chat?number=%2B380631095844"
+              class="contacts__messanger-link"
+              ><img
+                class="contacts__messanger-icon"
+                src="./img/svg-icons/viber.svg"
+                alt="Viber"
+              />Viber</a
+            >
+          </li>
+          <li class="contacts__messanger-item">
+            <a
+              href="https://api.whatsapp.com/send?phone=380631095844"
+              class="contacts__messanger-link"
+              ><img
+                class="contacts__messanger-icon"
+                src="./img/svg-icons/whatapp.svg"
+                alt="WhatsApp"
+              />WhatsApp</a
+            >
+          </li>
+        </ul>
       </address>
     </section>
     <!-- 
