@@ -17,14 +17,15 @@
   @media screen and (min-width: 768px) {
     display: flex;
     width: 575px;
-    padding: 60px 43px;
+    padding: 60px 90px;
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
   }
 }
 
 .form__cta {
-  margin-bottom: 12px;
+  // margin-bottom: 12px;
+  margin: 0 auto 12px;
 
   color: #031860;
   font-family: Montserrat;
@@ -47,10 +48,10 @@
 .form__input {
   width: 384px;
   height: 50px;
-  flex-shrink: 0;
-  border-radius: 15.352px;
+  border-radius: 15px;
   border: 1.535px solid #97bdc9;
   background: #fff;
+  margin: 0 auto;
 }
 
 .form__button {
@@ -100,6 +101,13 @@
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
+    @media screen and (min-width: 768px) {
+      padding: 0 30px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    width: 575px;
+    padding: 125px 70px 0;
   }
 }
 
@@ -135,6 +143,10 @@
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 20px;
+  }
 }
 
 .contacts__messanger-item {
