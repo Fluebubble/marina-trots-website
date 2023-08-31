@@ -1,3 +1,16 @@
+// .form__section {
+//   @media screen and (min-width: 1200px) {
+//     padding: 0 135px;
+//   }
+// }
+.form__wrapper {
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    display: flex;
+    margin: 60px auto 0;
+    //     padding: 0 135px;
+  }
+}
 .form {
   position: relative;
   z-index: 30;
@@ -20,6 +33,11 @@
     padding: 60px 90px;
     flex-direction: column;
     // align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 478px;
+    padding: 60px 42px;
+    margin: 0;
   }
 }
 
@@ -46,7 +64,8 @@
 }
 
 .form__input {
-  width: 384px;
+  // width: 384px;
+  width: 100%;
   height: 50px;
   border-radius: 15px;
   border: 1.535px solid #97bdc9;
@@ -87,27 +106,42 @@
   padding: 125px 40px 0;
   display: flex;
   flex-direction: column;
-
+  
   width: 452px;
   height: 440px;
   border: 0 hidden;
-
+  
   border-radius: 55px;
   background: #dfe6ff;
   box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px
-    rgba(0, 0, 0, 0.07);
+  rgba(0, 0, 0, 0.07);
+  
+  @media screen and (min-width: 768px) {
+    width: 575px;
+    padding: 125px 70px 0;
+  }
+  @media screen and (min-width: 1200px) {
+    z-index: 20;
+    margin: 0;
+    margin-left: -121px;
+    width: 540px;
+    padding: 60px 42px 60px 180px;
+  }
 
   &__phone-wrapper {
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
+
     @media screen and (min-width: 768px) {
       padding: 0 30px;
     }
-  }
-  @media screen and (min-width: 768px) {
-    width: 575px;
-    padding: 125px 70px 0;
+
+    @media screen and (min-width: 1200px) {
+      flex-direction: column;
+      padding: 0;
+      gap: 10px;
+    }
   }
 }
 
@@ -119,6 +153,10 @@
   font-size: 20px;
   font-weight: 500;
   line-height: normal;
+
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+  }
 }
 .contacts__messanger-cta {
   margin-top: 30px;
@@ -147,6 +185,12 @@
   @media screen and (min-width: 768px) {
     padding: 0 20px;
   }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+  }
 }
 
 .contacts__messanger-item {
@@ -165,4 +209,13 @@
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
+
+  @media screen and (min-width: 1200px) {
+    gap: 12px;
+  }
+}
+
+.contacts__messanger-icon {
+  width: 20px;
+  height: 20px;
 }
