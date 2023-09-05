@@ -35,7 +35,7 @@ const certificates = [
   },
 ];
 const showMoreBtn = document.querySelector(
-  '.certificates-gallery__loadMore-button'
+  '.certificates-gallery__button'
 );
 let isMoreDocsShowed = false;
 
@@ -49,15 +49,15 @@ showMoreBtn.addEventListener('click', () => {
     for (cert of certificates) {
       let item = document.createElement('a');
       addedDocs.push(item);
-      item.classList.add('certificates-list__item-link');
+      item.classList.add('certificates__item-link');
       item.href = cert.src;
 
-      item.innerHTML = `<div class="certificates-gallery__image-container"><img
+      item.innerHTML = `<div class="certificates__item-image-container"><img
             src="${cert.src}"
             alt="${cert.name}"
-            class="certificates-list__image"
+            class="certificates__item-image"
           /></div>
-          <p class="certificate-name">
+          <p class="certificates__item-name">
             ${cert.name}
           </p>`;
       markup.push(item);

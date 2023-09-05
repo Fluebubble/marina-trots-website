@@ -1,4 +1,4 @@
-.certificates-gallery {
+.certificates__gallery {
   display: flex;
   width: 450px;
   gap: 10px;
@@ -13,7 +13,7 @@
   }
 }
 
-.certificates-list__item-link {
+.certificates__item-link {
   border-radius: 18px;
   height: 200px;
   width: 220px;
@@ -33,7 +33,7 @@
   }
 }
 
-.certificates-gallery__image-container {
+.certificates__item-image-container {
   width: 220px;
   height: 160px;
   overflow: hidden;
@@ -45,7 +45,7 @@
   }
 }
 
-.certificates-list__image {
+.certificates__item-image {
   border-radius: 18px;
   // width: inherit;
   // height: 178px;
@@ -59,7 +59,7 @@
     // background-size: cover;
   }
 }
-.certificate-name {
+.certificates__item-name {
   //   display: inline-block;
   font-size: 12px;
   font-style: normal;
@@ -72,7 +72,7 @@
     font-size: 16px;
   }
 }
-.certificates-gallery__loadMore-button {
+.certificates-gallery__button {
   margin: 20px auto 0;
   display: flex;
   width: 220px;
