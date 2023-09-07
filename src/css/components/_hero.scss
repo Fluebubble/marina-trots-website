@@ -1,5 +1,8 @@
 .hero {
   margin: 25px 0;
+  @media screen and (min-width: 1200px) {
+    height: 445px;
+  }
 }
 
 .hero__inner {
@@ -15,8 +18,11 @@
     padding: 0;
   }
   @media screen and (min-width: 1200px) {
-    margin: 0 110px;
-    justify-content: flex-start;
+    margin: 0 auto;
+    height: 445px;
+    width: 904px;
+    // justify-content: flex-start;
+    // align-items: center;
   }
 }
 
@@ -35,7 +41,7 @@
     order: unset;
   }
   @media screen and (min-width: 1200px) {
-    margin-top: 32px;
+    // margin-top: 32px;
     position: relative;
     background-image: url(../img/hero/main-title-bg-pc.svg);
     width: 392.37px;
