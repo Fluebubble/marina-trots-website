@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll('.psy-direction-name__button');
+const buttons = document.querySelectorAll('.psy-direction__item-button');
 const descriptions = document.querySelectorAll('[data-type=description]');
 buttons[0].addEventListener('click', () => {
   // console.log('clicked');

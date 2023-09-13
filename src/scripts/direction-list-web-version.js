@@ -19,7 +19,7 @@
 // window.addEventListener('resize', handleWindowResize);
 
 if (window.innerWidth >= 1200) {
-  const directionsList = document.querySelector('.psy-directions-list');
+  const directionsList = document.querySelector('.psy-directions__list');
   const directionsListElements = document.querySelectorAll(
     '.psy-direction__item'
   );
@@ -27,7 +27,7 @@ if (window.innerWidth >= 1200) {
   console.log(directionsListElements);
 
   const secondDirectionsList = document.createElement('dl');
-  secondDirectionsList.classList.add('psy-directions-list');
+  secondDirectionsList.classList.add('psy-directions__list');
 
   for (let i = 1; i < directionsListElements.length; i += 2) {
     newDirectionsListElements.push(directionsListElements[i]);

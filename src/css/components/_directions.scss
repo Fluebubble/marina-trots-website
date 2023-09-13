@@ -1,3 +1,6 @@
+.psy-directions {
+}
+
 .psy-directions__wrapper {
   display: flex;
   margin: 0 auto;
@@ -6,7 +9,7 @@
   // padding: 10px;
 }
 
-.psy-directions-list {
+.psy-directions__list {
   position: relative;
   margin: 0 auto;
   @media screen and (min-width: 1200px) {
@@ -28,7 +31,7 @@
 // .psy-direction__item:nth-child(3) {
 //   float: right;
 // }
-.psy-direction-name {
+.psy-direction__item-name {
   position: relative;
   z-index: 20;
   display: flex;
@@ -38,7 +41,7 @@
   justify-content: center;
 }
 
-.psy-direction-name__button {
+.psy-direction__item-button {
   display: flex;
   width: 450px;
   height: 100px;
@@ -92,7 +95,7 @@
     // margin-top: 65px;
   }
 }
-.psy-direction-name__button-expand {
+.psy-direction__item-button-expand {
   width: 45px;
   height: 45px;
 }
