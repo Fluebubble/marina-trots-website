@@ -46,11 +46,9 @@
   height: 50px;
 }
 
-.text-bg__experience {
+.experience-container__text-bg {
   margin: 0 auto;
   width: 450px;
-  padding: 30px;
-  background: #dfe6ff;
   border-radius: 30px;
   // order: 1;
   @media screen and (min-width: 768px) {
@@ -77,6 +75,5 @@
     // width: 410px;
   }
   @media screen and (min-width: 1200px) {
-
   }
 }

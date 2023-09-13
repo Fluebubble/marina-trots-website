@@ -14,6 +14,25 @@
 //   flex-direction: column;
 // }
 
+.story-container__text-bg {
+  margin: 0 auto;
+  width: 450px;
+  order: 1;
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    width: 452px;
+    left: 286px;
+  }
+  @media screen and (min-width: 1200px) {
+    // position: absolute;
+    margin: 0 27px 0 0;
+    width: 601px;
+    // left: 485px;
+    left: auto;
+    right: 0;
+  }
+}
+
 .story__photo {
   width: 383px;
   filter: drop-shadow(0px 6.66667px 26.6667px rgba(0, 0, 0, 0.07));
