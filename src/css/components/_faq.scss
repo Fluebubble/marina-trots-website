@@ -5,7 +5,7 @@
   // padding: 10px;
 }
 
-.faq-list {
+.faq__list {
   position: relative;
   margin: 0 auto;
   @media screen and (min-width: 1200px) {
@@ -27,7 +27,7 @@
 // .faq__item:nth-child(3) {
 //   float: right;
 // }
-.faq-name {
+.faq__item-name {
   position: relative;
   z-index: 20;
   display: flex;
@@ -37,7 +37,7 @@
   justify-content: center;
 }
 
-.faq-name__button {
+.faq__item-button {
   display: flex;
   width: 450px;
   height: fit-content;
@@ -64,7 +64,7 @@
   }
 }
 
-.butname {
+.faq__item-button-name {
   // width: 349px;
 }
 .faq-description {
@@ -91,7 +91,7 @@
     // margin-top: 65px;
   }
 }
-.faq-name__button-expand {
+.faq__item-button-icon {
   width: 45px;
   height: 45px;
 }

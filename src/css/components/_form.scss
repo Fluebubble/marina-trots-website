@@ -3,7 +3,7 @@
 //     padding: 0 135px;
 //   }
 // }
-.form__wrapper {
+.feedback__inner {
   @media screen and (min-width: 1200px) {
     justify-content: center;
     display: flex;
@@ -41,18 +41,13 @@
   }
 }
 
-.form__cta {
-  // margin-bottom: 12px;
-  margin: 0 auto 12px;
 
-  color: #031860;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: normal;
+
+.form__cta {
+  margin: 0 auto 12px;
 }
 
-.form__label {
+.form-label {
   margin: 20px 0 15px;
 
   color: #434c6d;
@@ -63,7 +58,7 @@
   line-height: normal;
 }
 
-.form__input {
+.form-input {
   // width: 384px;
   width: 100%;
   height: 50px;
@@ -73,7 +68,7 @@
   margin: 0 auto;
 }
 
-.form__button {
+.form-button {
   margin: 30 auto 0;
   width: 300px;
   height: 52px;
@@ -90,7 +85,7 @@
   line-height: normal;
 }
 
-.form__info {
+.form-info {
   margin: 40px auto 0;
 
   color: #72778a;
@@ -103,22 +98,22 @@
 .contacts {
   z-index: 50;
   margin: -125px auto;
-  padding: 125px 40px 0;
+  padding: 170px 40px 0;
   display: flex;
   flex-direction: column;
-  
+
   width: 452px;
   height: 440px;
   border: 0 hidden;
-  
+
   border-radius: 55px;
   background: #dfe6ff;
   box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px
-  rgba(0, 0, 0, 0.07);
-  
+    rgba(0, 0, 0, 0.07);
+
   @media screen and (min-width: 768px) {
     width: 575px;
-    padding: 125px 70px 0;
+    padding: 170px 70px 0;
   }
   @media screen and (min-width: 1200px) {
     z-index: 20;
@@ -158,14 +153,8 @@
     margin: 0;
   }
 }
-.contacts__messanger-cta {
+.contacts__cta {
   margin-top: 30px;
-
-  color: #031860;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: normal;
 }
 
 .contacts__phone {

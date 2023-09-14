@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll('.faq-name__button');
+const buttons = document.querySelectorAll('.faq__item-button');
 const descriptions = document.querySelectorAll('[data-type=answer]');
 buttons[0].addEventListener('click', () => {
   // console.log('clicked');
