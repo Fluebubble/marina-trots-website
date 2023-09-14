@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".faq__item-button"),i=document.querySelectorAll("[data-type=answer]");e[0].addEventListener("click",(()=>{}));for(let s=0;s<e.length;s++)e[s].addEventListener("click",(()=>{i[s].classList.contains("is-hidden")?(console.log("contains isHidden"),i[s].classList.replace("is-hidden","faq-description"),i[s].classList.add("position-relative")):(console.log("doesn't contain isHidden"),i[s].classList.replace("faq-description","is-hidden"),i[s].classList.remove("position-relative"))}));
+//# sourceMappingURL=index.4660855a.js.map
