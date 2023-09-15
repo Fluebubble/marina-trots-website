@@ -3,7 +3,7 @@
 
 .psy-directions__wrapper {
   display: flex;
-  margin: 0 auto;
+  margin: 40px auto 0;
   width: fit-content;
   gap: 10px;
   // padding: 10px;
@@ -12,15 +12,12 @@
 .psy-directions__list {
   position: relative;
   margin: 0 auto;
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    // width: 1028px;
-    // flex-wrap: wrap;
-    flex-direction: column;
-    // align-items: baseline;
-    // justify-content: space-between;
-    // margin: 0 auto;
-  }
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  // @media screen and (min-width: 1200px) {
+
+  // }
 }
 // .psy-direction__item.position-relative {
 //   position: relative;
@@ -35,7 +32,7 @@
   position: relative;
   z-index: 20;
   display: flex;
-  margin-top: 15px;
+  // margin-top: 15px;
   // align-items: center;
   // align-content: center;
   justify-content: center;

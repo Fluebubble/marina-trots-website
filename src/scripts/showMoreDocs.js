@@ -13,17 +13,25 @@ const certificates = [
   //     name: 'Когнитивно-поведенческая терапия 2021',
   //     src: './img/cert/cognitive-pov-therapy.jpg',
   //   },
-  //   {
-  //     name: 'Курс MBSR 2020',
-  //     src: './img/cert/MBSR.png',
-  //   },
+  {
+    name: 'Курс MBSR 2020',
+    src: './img/cert/MBSR.png',
+  },
   {
     name: 'Пропедевтика психиатрии 2020',
     src: './img/cert/proped-therapy.webp',
   },
   {
+    name: 'Сексология и сексопаталогия 1 2019',
+    src: './img/cert/sexology-sexopathology.webp',
+  },
+  {
     name: 'Сексология и сексопаталогия 2 2019',
     src: './img/cert/sexology-sexopathology2.webp',
+  },
+  {
+    name: 'Схема-терапия 2017',
+    src: './img/cert/schema.jpg',
   },
   {
     name: 'Системно-феноменологическая психотерапия 2016',
@@ -33,13 +41,39 @@ const certificates = [
     name: 'Когнитивно-поведенческая терапия 2016',
     src: './img/cert/cognipov.webp',
   },
+  {
+    name: 'Бодинамическая терапия 2013',
+    src: './img/cert/bodynamic-therapy.webp',
+  },
+  {
+    name: 'Холотропное дыхание 2012',
+    src: './img/cert/holdih.webp',
+  },
+  {
+    name: 'Процессуальный интенсив по отношениям 2011',
+    src: './img/cert/procterap2.webp',
+  },
+  {
+    name: 'Основы процессуальной терапии 2010',
+    src: './img/cert/osn-proc-therapy.webp',
+  },
+  {
+    name: 'Диплом психолога 2010',
+    src: './img/cert/psy-diploma.webp',
+  },
+  {
+    name: 'Холодинамика 2007',
+    src: './img/cert/holdnam.webp',
+  },
+  {
+    name: 'Семейная психология и психотерапия 2007',
+    src: './img/cert/sempsih.jpg',
+  },
 ];
-const showMoreBtn = document.querySelector(
-  '.certificates-gallery__button'
-);
+const showMoreBtn = document.querySelector('.certificates-gallery__button');
 let isMoreDocsShowed = false;
 
-const gallery = document.querySelector('.certificates-gallery');
+const gallery = document.querySelector('.certificates__gallery');
 const addedDocs = [];
 
 showMoreBtn.addEventListener('click', () => {

@@ -3,6 +3,13 @@
 //     padding: 0 135px;
 //   }
 // }
+.feedback {
+  height: 1100px;
+
+  @media (min-width: 1200px) {
+    height: 815px;
+  }
+}
 .feedback__inner {
   @media screen and (min-width: 1200px) {
     justify-content: center;
@@ -40,8 +47,6 @@
     margin: 0;
   }
 }
-
-
 
 .form__cta {
   margin: 0 auto 12px;

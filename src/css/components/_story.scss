@@ -1,4 +1,4 @@
-.story-container {
+.story__inner {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
@@ -9,12 +9,12 @@
   }
 }
 
-// .section__story {
+// .story {
 //   display: flex;
 //   flex-direction: column;
 // }
 
-.story-container__text-bg {
+.story__text-bg {
   margin: 0 auto;
   width: 450px;
   order: 1;
