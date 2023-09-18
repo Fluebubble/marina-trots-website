@@ -58,7 +58,13 @@
 }
 
 .faq__item-button-name {
-  // width: 349px;
+  max-width: 300px;
+  @media (min-width: 768px) {
+    max-width: 600px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 730px;
+  }
 }
 .faq-description {
   z-index: 10;

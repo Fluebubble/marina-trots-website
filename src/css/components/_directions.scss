@@ -41,7 +41,7 @@
 .psy-direction__item-button {
   display: flex;
   width: 450px;
-  height: 100px;
+  min-height: 100px;
   padding: 25px 42px;
   justify-content: space-between;
   align-items: center;
@@ -65,8 +65,11 @@
   }
 }
 
-.faq__item-button-name {
-  // width: 349px;
+.psy-direction__item-button-name {
+  max-width: 80%;
+  @media (min-width: 1200px) {
+    max-width: 350px;
+  }
 }
 .psy-direction-description {
   z-index: 10;

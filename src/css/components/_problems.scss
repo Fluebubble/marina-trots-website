@@ -74,3 +74,15 @@
     }
   }
 }
+
+.problems-list__item-text {
+  max-width: 138px;
+
+  @media (min-width: 768px) {
+    max-width: 230px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 230px;
+  }
+}
