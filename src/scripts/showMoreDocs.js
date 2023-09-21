@@ -1,28 +1,6 @@
 import { lightbox } from './certificates-gallery';
 
 const certificates = [
-  //   {
-  //     name: 'Healing Trauma 2022',
-  //     src: './img/cert/healing-trauma.jpg',
-  //   },
-  //   {
-  //     name: 'Интеграция майндфулнес 2021',
-  //     src: './img/cert/integration-mindfulness.webp',
-  //   },
-  //   {
-  //     name: 'Когнитивно-поведенческая терапия 2021',
-  //     src: './img/cert/cognitive-pov-therapy.jpg',
-  //   },
-  {
-    name: 'Курс MBSR 2020',
-    src: './img/cert/MBSR.png',
-    thumb: './img/cert/thumbs/MBSR-thumb.jpg',
-  },
-  {
-    name: 'Пропедевтика психиатрии 2020',
-    src: './img/cert/proped-therapy.webp',
-    thumb: './img/cert/thumbs/proped-therapy-thumb.jpg',
-  },
   {
     name: 'Сексология и сексопаталогия 1 2019',
     src: './img/cert/sexology-sexopathology.webp',
@@ -90,9 +68,12 @@ let isMoreDocsShowed = false;
 const gallery = document.querySelector('.certificates__gallery');
 const addedDocs = [];
 
+let currentScrollPosition = null;
+
 showMoreBtn.addEventListener('click', () => {
   if (!isMoreDocsShowed) {
-    // console.log(gallery);
+    currentScrollPosition = window.scrollY; // запоминаем позицию скролла по клику на "showmore"
+
     const markup = [];
     for (cert of certificates) {
       let item = document.createElement('a');
@@ -109,18 +90,18 @@ showMoreBtn.addEventListener('click', () => {
             ${cert.name}
           </p>`;
       markup.push(item);
-      // console.log(item);
     }
     gallery.append(...markup);
     isMoreDocsShowed = true;
     showMoreBtn.textContent = 'Показать меньше';
     lightbox.refresh();
-    // console.log(addedDocs);
   } else {
     addedDocs.forEach(doc => {
       doc.remove();
     });
     showMoreBtn.textContent = 'Показать все документы';
     isMoreDocsShowed = false;
+
+    window.scrollTo(0, currentScrollPosition);
   }
 });
