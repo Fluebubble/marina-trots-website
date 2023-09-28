@@ -7,7 +7,6 @@
 
   @media screen and (min-width: 768px) {
     gap: 10px;
-    // justify-content: center;
     width: 690px;
     margin: 40px auto;
   }
@@ -21,13 +20,12 @@
 
   &__item {
     display: flex;
-    width: 222px;
+    width: calc(50% - 3px);
     height: 62px;
-    // padding: 15px 20px;
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
-    gap: 10.435px;
+    gap: 10px;
 
     border-radius: 20px;
     background: #dfe6ff;
@@ -46,7 +44,6 @@
       width: 340px;
       height: 94px;
       border-radius: 30px;
-      // padding: 15px 20px;
       padding-left: 20px;
       padding-right: 20px;
 
@@ -58,7 +55,6 @@
       width: 380px;
       height: 94px;
       border-radius: 30px;
-      // padding: 15px 20px;
       padding-left: 20px;
       padding-right: 20px;
 
@@ -66,6 +62,7 @@
     }
   }
   &__item-img {
+    min-width: 32px;
     width: 32px;
     height: 32px;
     @media screen and (min-width: 768px) {
@@ -77,8 +74,10 @@
 
 .problems-list__item-text {
   max-width: 138px;
+  word-break: break-all;
 
   @media (min-width: 768px) {
+    word-break: normal;
     max-width: 230px;
   }
 

@@ -30,15 +30,6 @@
   }
 }
 
-// OLD HERO TITLE
-
-// .hero__title {
-//   order: 1;
-//   width: 340px;
-//   height: 112px;
-//   background-image: url(../img/hero/main-title-bg-mobile.svg);
-//   // background-size: 340px 112px;
-//   // margin-bottom: 10px;
 .hero__title-text {
   position: relative;
   display: flex;
@@ -109,6 +100,10 @@
   // height: 78px;
   border-radius: 0 20px 20px 20px;
   background: #4fa3bd;
+  
+  @media (max-width: 480px) {
+    font-size: 8vw;
+  }
   @media screen and (min-width: 768px) {
     font-size: 40px;
   }
