@@ -263,7 +263,8 @@
 
   &-input {
     height: 45px;
-    width: 226px;
+    max-width: 226px;
+    width: 100%;
     border-radius: 13.7px;
     // padding: 13px 18px 13px 18px;
     border: 1.37px solid #4fa3bd;

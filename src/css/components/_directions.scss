@@ -39,8 +39,10 @@
 }
 
 .psy-direction__item-button {
+  word-break: break-word;
   display: flex;
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   min-height: 100px;
   padding: 25px 42px;
   justify-content: space-between;
@@ -66,9 +68,9 @@
 }
 
 .psy-direction__item-button-name {
-  max-width: 80%;
+  // max-width: 80%;
   @media (min-width: 1200px) {
-    max-width: 350px;
+    // max-width: 350px;
   }
 }
 .psy-direction-description {
@@ -76,7 +78,7 @@
   position: relative;
   top: -50px;
   display: flex;
-  width: 450px;
+  max-width: 450px;
   padding: 65px 42px 30px 42px;
   margin: 0 auto -50px;
 
@@ -87,6 +89,7 @@
 
   @media screen and (min-width: 768px) {
     width: 738px;
+    max-width: none;
   }
   @media screen and (min-width: 1200px) {
     width: 494px;
@@ -96,6 +99,7 @@
   }
 }
 .psy-direction__item-button-expand {
+  min-width: 45px;
   width: 45px;
   height: 45px;
 }
