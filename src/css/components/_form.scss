@@ -54,7 +54,7 @@
   margin: 0 auto 12px;
 }
 
-.form-label {
+.form__label {
   margin: 20px 0 15px;
 
   color: #434c6d;
@@ -65,7 +65,7 @@
   line-height: normal;
 }
 
-.form-input {
+.form__input {
   // width: 384px;
   width: 100%;
   height: 50px;
@@ -73,6 +73,13 @@
   border: 1.535px solid #97bdc9;
   background: #fff;
   margin: 0 auto;
+  padding: 0 20px;
+  line-height: 50px;
+
+  &::placeholder {
+    font-family: Montserrat;
+    font-size: 18px;
+  }
 }
 
 .form-button {
@@ -138,6 +145,7 @@
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 
     @media screen and (min-width: 768px) {
       padding: 0 30px;
@@ -181,7 +189,8 @@
   flex-wrap: wrap;
   margin-top: 24px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 15px;
 
   @media screen and (min-width: 768px) {
     padding: 0 20px;
