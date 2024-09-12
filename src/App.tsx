@@ -4,14 +4,14 @@
 // import './App.scss';
 // import './css/index.scss';
 import './styles/index.scss';
-import { Header } from './components/Header/Header';
+import { ContactsBar } from './components/Header/ContactsBar/ContactsBar';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header />
+      <ContactsBar />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

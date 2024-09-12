@@ -1,9 +1,9 @@
-import { Container } from '../Container/Container';
-import styles from './Header.module.scss';
+import { Container } from '../../Container/Container';
+import styles from './ContactsBar.module.scss';
 import { MessangerList } from './MessangerList/MessangerList';
 import { PhoneCTA } from './PhoneCTA/PhoneCTA';
 
-export const Header = () => {
+export const ContactsBar = () => {
   return (
     <header className="header">
       {/* <div className="container"> */}

@@ -1,4 +1,4 @@
-import { MessangerIconsNames } from '../../../../types/messangerIconsNames';
+import { MessangerIconsNames } from '../../../../../types/messangerIconsNames';
 import styles from './MessangerItem.module.scss';
 
 interface Props {
