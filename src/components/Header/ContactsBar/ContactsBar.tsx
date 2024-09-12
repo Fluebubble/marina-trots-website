@@ -1,4 +1,4 @@
-import { Container } from '../../Container/Container';
+// import { Container } from '../../Container/Container';
 import styles from './ContactsBar.module.scss';
 import { MessangerList } from './MessangerList/MessangerList';
 import { PhoneCTA } from './PhoneCTA/PhoneCTA';
@@ -7,7 +7,6 @@ export const ContactsBar = () => {
   return (
     <header className="header">
       {/* <div className="container"> */}
-      <Container>
         <div className={styles['header__inner']}>
           <MessangerList />
           {/* <ul className={styles['header__socials-list']}>
@@ -54,7 +53,6 @@ export const ContactsBar = () => {
             <span className="phone__number">+38 063 109 58 44</span>
           </a> */}
         </div>
-      </Container>
       {/* </div> */}
     </header>
   );

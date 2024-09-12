@@ -1,0 +1,8 @@
+.hero {
+  margin: 50px 0;
+
+  @media screen and (width >=1200px) {
+    margin: 80px 0;
+    height: 445px;
+  }
+}
