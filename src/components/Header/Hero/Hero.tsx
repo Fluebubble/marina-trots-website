@@ -1,11 +1,13 @@
 import styles from './Hero.module.scss';
 import { MainTitle } from './MainTitle/MainTitle';
+import { Subtitle } from './Subtitle/Subtitle';
 
 export const Hero = () => {
   return (
     <div className={styles['hero']}>
       <div className="hero__inner">
         <MainTitle />
+        <Subtitle />
         <div className="hero__subtitle">
           <p className="hero__subtitle-text">
             Консультация психолога - начало экологичного отношения к себе
