@@ -1,3 +1,4 @@
+import { BulletList } from './BulletList/BulletList';
 import styles from './Hero.module.scss';
 import { MainTitle } from './MainTitle/MainTitle';
 import { Subtitle } from './Subtitle/Subtitle';
@@ -8,18 +9,7 @@ export const Hero = () => {
       <div className="hero__inner">
         <MainTitle />
         <Subtitle />
-        <div className="hero__subtitle">
-          <p className="hero__subtitle-text">
-            Консультация психолога - начало экологичного отношения к себе
-          </p>
-        </div>
-        <ul className="hero__bullets-list">
-          <li className="hero__bullets-list-item">практический опыт 15 лет</li>
-          <li className="hero__bullets-list-item">
-            +23 000 часов консультаций
-          </li>
-          <li className="hero__bullets-list-item">онлайн и офлайн прием</li>
-        </ul>
+        <BulletList />
         <img
           src="img/hero/main-photo-mobile.jpg"
           alt="Марина Троц"
