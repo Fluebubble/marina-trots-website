@@ -1,6 +1,7 @@
 import { BulletList } from './BulletList/BulletList';
 import styles from './Hero.module.scss';
 import { MainTitle } from './MainTitle/MainTitle';
+import { Photo } from './Photo/Photo';
 import { Subtitle } from './Subtitle/Subtitle';
 
 export const Hero = () => {
@@ -10,10 +11,9 @@ export const Hero = () => {
         <MainTitle />
         <Subtitle />
         <BulletList />
-        <img
-          src="img/hero/main-photo-mobile.jpg"
+        <Photo
+          image={'img/hero/main-photo.jpg'}
           alt="Марина Троц"
-          className="hero__photo"
         />
         <form
           className="hero__contact-form"
