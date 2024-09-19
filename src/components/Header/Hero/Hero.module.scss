@@ -6,3 +6,27 @@
     height: 445px;
   }
 }
+
+.content {
+  // max-width: inherit;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+
+  // margin-left: auto;
+  // margin-right: auto;
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 0 auto;
+    height: 445px;
+    width: 904px;
+    // justify-content: flex-start;
+    // align-items: center;
+  }
+}
