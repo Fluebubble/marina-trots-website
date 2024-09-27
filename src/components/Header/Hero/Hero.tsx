@@ -1,22 +1,27 @@
-import { BulletList } from './BulletList/BulletList';
+// import { BulletList } from './BulletList/BulletList';
 import { Form } from './Form/Form';
 import styles from './Hero.module.scss';
 import { MainTitle } from './MainTitle/MainTitle';
 import { Photo } from './Photo/Photo';
 import { Subtitle } from './Subtitle/Subtitle';
+import { DeviceSizes } from '../../../types/deviceSizes';
+import { useMediaQuery } from 'react-responsive';
 
 export const Hero = () => {
+  const isMobile = useMediaQuery({ maxWidth: DeviceSizes.mobile });
+  console.log(isMobile);
+
   return (
     <div className={styles['hero']}>
       <div className={styles['content']}>
         <MainTitle />
         <Subtitle />
-        <BulletList />
+        {/* <BulletList /> */}
         <Photo
           image={'img/hero/main-photo.jpg'}
           alt="Марина Троц"
         />
-        <Form />
+        {!isMobile && <Form />}
       </div>
     </div>
   );

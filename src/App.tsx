@@ -6,6 +6,7 @@
 import './styles/index.scss';
 import { Header } from './components/Header/Header';
 import { Container } from './components/Container/Container';
+import { Story } from './components/Story/Story';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <>
       <Container>
         <Header />
+        <Story />
       </Container>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">

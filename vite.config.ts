@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import Checker from 'vite-plugin-checker';
+import eslint from 'vite-plugin-eslint';
 // import stylelintPlugin from 'vite-plugin-stylelint';
 // import eslintPlugin from 'vite-plugin-eslint';
 
@@ -17,6 +18,7 @@ export default defineConfig({
       //   // dev: true, // Проверять в режиме разработки
       // }
     }),
+    eslint(),
     // stylelintPlugin({
     //   files: ['**/*.{css,scss}'], // Файлы для проверки
     // })
