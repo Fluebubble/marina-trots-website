@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './MainTitle.module.scss';
 
 export const MainTitle = () => {

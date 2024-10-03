@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg';
 // import './App.scss';
 // import './css/index.scss';
+import React from 'react';
 import './styles/index.scss';
 import { Header } from './components/Header/Header';
 import { Container } from './components/Container/Container';

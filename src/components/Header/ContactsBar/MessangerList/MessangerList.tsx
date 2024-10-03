@@ -1,6 +1,7 @@
+import React from 'react'
 import { MessangerItem } from './MessangerItem/MessangerItem';
 import styles from './MessangerList.module.scss';
-import { MessangerIconsNames } from '../../../../types/messangerIconsNames';
+import { MessangerIconsNames } from '@/types/messangerIconsNames';
 
 // interface Props {
 //   children: React.ReactNode;

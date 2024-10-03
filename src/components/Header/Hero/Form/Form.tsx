@@ -1,4 +1,4 @@
-
+import React from 'react'
 import styles from './Form.module.scss';
 
 export const Form = () => {

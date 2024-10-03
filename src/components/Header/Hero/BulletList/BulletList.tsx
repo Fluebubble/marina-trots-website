@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './BulletList.module.scss';
 import { BulletItem } from './BulletItem/Bulletltem';
 

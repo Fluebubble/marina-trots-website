@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Subtitle.module.scss';
 
 export const Subtitle = () => {

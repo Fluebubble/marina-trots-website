@@ -1,4 +1,4 @@
-// import { BulletList } from './BulletList/BulletList';
+import React from 'react'
 import { Form } from './Form/Form';
 import styles from './Hero.module.scss';
 import { MainTitle } from './MainTitle/MainTitle';
@@ -16,7 +16,6 @@ export const Hero = () => {
       <div className={styles['content']}>
         <MainTitle />
         <Subtitle />
-        {/* <BulletList /> */}
         <Photo
           image={'img/hero/main-photo.jpg'}
           alt="Марина Троц"

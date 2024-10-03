@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './PhoneCTA.module.scss';
 
 export const PhoneCTA = () => {
