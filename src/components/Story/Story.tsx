@@ -1,13 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Title } from '../Title/Title';
 
 export const Story = () => {
   return (
     <section className="section story">
       {/* <div className="container"> */}
-      <div className="title">
-        <h2 className="title__text">Моя история</h2>
-      </div>
       <Title text="Моя история" />
       <div className="story__inner">
         <img

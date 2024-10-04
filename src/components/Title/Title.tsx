@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Title.module.scss';
 
 interface Props {
   text: string;
@@ -6,8 +7,8 @@ interface Props {
 
 export const Title: React.FC<Props> = ({ text }) => {
   return (
-    <div className="title">
-      <h2 className="title__text">{text}</h2>
+    <div className={styles.wrapper}>
+      <h2 className={styles.text}>{text}</h2>
     </div>
   );
 };
