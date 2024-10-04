@@ -1,3 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  gap: 25px;
+
+  @media screen and (min-width: 768px) {
+    height: 510px;
+    display: block;
+    position: relative;
+  }
+}
+
 .wrapper {
   max-width: 400px;
   width: fit-content;
@@ -17,4 +31,71 @@
   font-size: 24px;
   line-height: 29px;
   text-align: center;
+}
+
+.photo {
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0px 6.66667px 26.6667px rgba(0, 0, 0, 0.07));
+  border-radius: 30px;
+  // margin-top: 25px;
+  order: 2;
+
+  @media screen and (min-width: 768px) {
+    width: 256px;
+    position: absolute;
+    margin: 0;
+    // margin-left: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: none;
+    width: 455px;
+    position: absolute;
+    border-radius: 55px;
+    margin-left: 27px;
+    box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px rgba(0, 0, 0, 0.07);
+  }
+}
+
+.button {
+  $button-height: 60px;
+
+  // padding: 18.5px 52px;
+  text-align: center;
+  // margin-top: 25px;
+  // max-width: 290px;
+  width: 290px;
+  height: $button-height;
+  background: #ff6363;
+  border-radius: 15px;
+  order: 3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: $button-height;
+  color: #ffffff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  @media screen and (min-width: 768px) {
+    // width: 256px;
+    margin: 0;
+    position: absolute;
+    width: 256px;
+    height: 52px;
+    line-height: 52px;
+    top: 191px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 356px;
+    height: 52px;
+    top: 334px;
+    left: 77px;
+    box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px rgba(0, 0, 0, 0.07);
+  }
 }

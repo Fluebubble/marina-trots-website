@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #DFE6FF;
+  // max-width: 450px;
+  // order: 1;
+
+  @media screen and (width>=768px) {
+    position: absolute;
+    width: 452px;
+    left: 286px;
+  }
+
+  @media screen and (width>=1200px) {
+    max-width: none;
+    margin: 0 27px 0 0;
+    width: 601px;
+    left: auto;
+    right: 0;
+  }
+}
+
+.text {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #031860;
+}
