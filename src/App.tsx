@@ -8,15 +8,17 @@ import './styles/index.scss';
 import { Header } from './components/Header/Header';
 import { Container } from './components/Container/Container';
 import { Story } from './components/Story/Story';
+import { Problems } from './components/Problems/Problems';
 
 function App() {
   return (
-    <>
+    <main>
       <Container>
         <Header />
         <Story />
+        <Problems />
       </Container>
-    </>
+    </main>
   );
 }
 
