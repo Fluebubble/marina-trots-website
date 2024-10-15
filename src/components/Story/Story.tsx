@@ -22,7 +22,7 @@ const ContactButton = ({ href, label }: { href: string; label: string }) => (
 
 export const Story = () => {
   return (
-    <section className="section story">
+    <section className="section">
       {/* <div className="container"> */}
       <Title text="Моя история" />
       <div className={styles.content}>
