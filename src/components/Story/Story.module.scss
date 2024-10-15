@@ -5,7 +5,7 @@
   align-items: center;
   gap: 25px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (width >= 768px) {
     height: 510px;
     display: block;
     position: relative;
@@ -37,35 +37,30 @@
   max-width: 380px;
   width: 100%;
   height: auto;
-  filter: drop-shadow(0px 6.66667px 26.6667px rgba(0, 0, 0, 0.07));
+  filter: drop-shadow(0 6.6667px 26.6667px rgb(0 0 0 / 7%));
   border-radius: 30px;
-  // margin-top: 25px;
   order: 2;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (width >= 768px) {
     width: 256px;
     position: absolute;
     margin: 0;
-    // margin-left: 15px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (width >= 1200px) {
     max-width: none;
     width: 455px;
     position: absolute;
     border-radius: 55px;
     margin-left: 27px;
-    box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 6.6667px 26.6667px 0 rgba(0 0 0 / 7%);
   }
 }
 
 .button {
   $button-height: 60px;
 
-  // padding: 18.5px 52px;
   text-align: center;
-  // margin-top: 25px;
-  // max-width: 290px;
   width: 290px;
   height: $button-height;
   background: #ff6363;
@@ -75,14 +70,13 @@
   font-weight: 400;
   font-size: 18px;
   line-height: $button-height;
-  color: #ffffff;
+  color: #fff;
 
   &:visited {
     color: #fff;
   }
 
-  @media screen and (min-width: 768px) {
-    // width: 256px;
+  @media screen and (width >= 768px) {
     margin: 0;
     position: absolute;
     width: 256px;
@@ -91,11 +85,11 @@
     top: 191px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (width >= 1200px) {
     width: 356px;
     height: 52px;
     top: 334px;
     left: 77px;
-    box-shadow: 0px 6.666666507720947px 26.66666603088379px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 6.6667px 26.6667px 0 rgba(0 0 0 / 7%);
   }
 }
