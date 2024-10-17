@@ -9,6 +9,7 @@ import { Header } from './components/Header/Header';
 import { Container } from './components/Container/Container';
 import { Story } from './components/Story/Story';
 import { Problems } from './components/Problems/Problems';
+import { Diplomas } from './components/Diplomas/Diplomas';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Story />
         <Problems />
+        <Diplomas />
       </Container>
     </main>
   );
