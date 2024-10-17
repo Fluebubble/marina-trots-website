@@ -1,8 +1,8 @@
 import React from 'react';
 import { ListItem } from './ListItem/ListItem';
-import styles from './BulletList.module.scss';
+import styles from './ProblemList.module.scss';
 
-export const BulletList = () => {
+export const ProblemList = () => {
   return (
     <ul className={styles.list}>
       <ListItem
