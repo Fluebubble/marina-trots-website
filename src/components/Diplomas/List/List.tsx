@@ -1,16 +1,97 @@
 import React from 'react';
+import 'swiper/css';
+import 'swiper/css/grid';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Grid } from 'swiper/modules';
 import { Item } from './Item/Item';
+// import styles from './List.module.scss';
 
 export const List = () => {
   return (
-    <div className="certificates__gallery">
-      <Item
-        image="./img/cert/healing-trauma.jpg"
-        thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
-        alt="Сертификат Healing Trauma 2022"
-        name="Healing Trauma 2022"
-      />
-      <a
+    <Swiper
+      spaceBetween={10}
+      slidesPerView={2}
+      grid={{
+        fill: 'row',
+        rows: 2,
+      }}
+      // fill="row"
+      modules={[Grid]}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      {/* <div className={styles.list}> */}
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/EABCT_Accreditation.webp"
+          thumb="./img/cert/thumbs/EABCT_Accreditation-thumb.jpg"
+          alt="Сертификат EABCT 2021"
+          name="EABCT 2021"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Item
+          image="./img/cert/healing-trauma.jpg"
+          thumb="./img/cert/thumbs/healing-trauma-thumb.jpg"
+          alt="Сертификат Healing Trauma 2022"
+          name="Healing Trauma 2022"
+        />
+      </SwiperSlide>
+      {/* </div> */}
+    </Swiper>
+  );
+};
+
+{
+  /* <a
         href="./img/cert/healing-trauma.jpg"
         className="certificates__item-link"
       >
@@ -89,7 +170,5 @@ export const List = () => {
           />
         </div>
         <p className="certificates__item-name">Пропедевтика психиатрии 2020</p>
-      </a>
-    </div>
-  );
-};
+      </a> */
+}

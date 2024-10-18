@@ -5,9 +5,11 @@
   gap: 10px;
   margin: 40px auto 0;
   flex-wrap: wrap;
+
   @media screen and (min-width: 768px) {
     max-width: 738px;
   }
+
   @media screen and (min-width: 1200px) {
     max-width: 1170px;
     gap: 30px;
@@ -17,8 +19,8 @@
 .certificates__item-link {
   border-radius: 18px;
   height: 200px;
-  // width: 220px;
-  width: calc(50% - 5px);
+  width: 220px;
+  // width: calc(50% - 5px);
   background: #dfe6ff;
   align-items: center;
   display: flex;
@@ -28,6 +30,7 @@
     width: 364px;
     min-height: 236px;
   }
+
   @media screen and (min-width: 1200px) {
     width: 370px;
     height: 250px;
@@ -60,6 +63,7 @@
     // background-size: cover;
   }
 }
+
 .certificates__item-name {
   //   display: inline-block;
   font-size: 12px;
@@ -73,6 +77,7 @@
     font-size: 16px;
   }
 }
+
 .certificates-gallery__button {
   margin: 20px auto 0;
   display: flex;
@@ -83,8 +88,7 @@
 
   border-radius: 15px;
   background: #dfe6ff;
-  box-shadow: 0px 3.999999761581421px 15.999999046325684px 0px
-    rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 3.999999761581421px 15.999999046325684px 0px rgba(0, 0, 0, 0.07);
 
   color: #314279;
   text-align: center;
