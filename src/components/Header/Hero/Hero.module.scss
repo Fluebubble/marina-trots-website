@@ -1,0 +1,33 @@
+.hero {
+  margin: 25px 0;
+
+  @media screen and (width >=1200px) {
+    margin: 80px 0;
+    height: 445px;
+  }
+
+  @media screen and (width >=768px) {
+    margin-top: 70px;
+    padding: 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+
+  @media screen and (width >=768px) {
+    padding: 0;
+  }
+
+  @media screen and (width >=1200px) {
+    margin: 0 auto;
+    height: 445px;
+    width: 904px;
+  }
+}

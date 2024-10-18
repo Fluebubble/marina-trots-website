@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 12px 11px;
+  background: #75c3e0;
+  border-radius: 15px;
+  order: 3;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
+
+  @media screen and (min-width: 768px) {
+    width: 460px;
+    font-size: 24px;
+    order: unset;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    width: 501.65px;
+    height: 97.07px;
+  }
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.messanger-list {
+  display: flex;
+
+  margin-right: 19px;
+  margin-left: auto;
+  gap: 20px;
+  
+  @media screen and (min-width: 1200px) {
+    margin-right: 35px;
+    gap: 25px;
+    
+    &__item:nth-child(-n + 2) {
+      margin-right: 30px;
+    }
+  }
+}
