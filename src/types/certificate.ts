@@ -1,6 +1,7 @@
 export type Certificate = {
-  name: string,
+  title: string,
   alt: string,
-  src: string,
+  image: string,
   thumb: string,
+  id: number,
 }
