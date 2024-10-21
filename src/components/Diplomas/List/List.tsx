@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 import "swiper/css";
 import "swiper/css/grid";
+import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Grid } from "swiper/modules";
+import { Grid, Pagination } from "swiper/modules";
 import { Item } from "./Item/Item";
 import { Certificate } from "@/types/certificate";
 import { DeviceSizes } from "../../../types/deviceSizes";
@@ -13,6 +14,12 @@ interface Props {
 }
 
 export const List: React.FC<Props> = ({ certificates }) => {
+  const paginationRef = useRef<HTMLDivElement>(null);
+  const paginationSettings = {
+    clickable: true,
+    el: paginationRef.current,
+  };
+
   return (
     <div className={styles.content}>
       <Swiper
@@ -22,7 +29,8 @@ export const List: React.FC<Props> = ({ certificates }) => {
           fill: "row",
           rows: 2,
         }}
-        modules={[Grid]}
+        pagination={paginationSettings}
+        modules={[Grid, Pagination]}
         breakpoints={{
           [DeviceSizes.desktop]: {
             slidesPerView: 3,
@@ -44,6 +52,7 @@ export const List: React.FC<Props> = ({ certificates }) => {
             />
           </SwiperSlide>
         ))}
+        <div ref={paginationRef} className={styles.pagination}></div>
       </Swiper>
     </div>
   );
