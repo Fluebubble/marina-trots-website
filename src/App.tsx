@@ -15,7 +15,7 @@ function App() {
   return (
     <main>
       <Container>
-        {/* <Header /> */}
+        <Header />
         <Story />
         <Problems />
         <Diplomas />
