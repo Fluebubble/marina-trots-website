@@ -42,6 +42,13 @@
     "id": 6
   },
   {
+    "title": "Сексология и сексопаталогия 1 2019",
+    "alt": "Сексология и сексопаталогия 1 2019",
+    "image": "./img/cert/sexology-sexopathology.webp",
+    "thumb": "./img/cert/thumbs/sexology-sexopathology-thumb.jpg",
+    "id": 8
+  },
+  {
     "title": "Healing Trauma 2022",
     "alt": "Сертификат Healing Trauma 2022",
     "image": "./img/cert/healing-trauma.jpg",
@@ -49,86 +56,79 @@
     "id": 7
   },
   {
-    "title": "Сексология и сексопаталогия 1 2019",
-    "alt": "Сексология и сексопаталогия 1 2019",
-    "src": "./img/cert/sexology-sexopathology.webp",
-    "thumb": "./img/cert/thumbs/sexology-sexopathology-thumb.jpg",
-    "id": 8
-  },
-  {
     "title": "Сексология и сексопаталогия 2 2019",
     "alt": "Сексология и сексопаталогия 2 2019",
-    "src": "./img/cert/sexology-sexopathology2.webp",
+    "image": "./img/cert/sexology-sexopathology2.webp",
     "thumb": "./img/cert/thumbs/sexology-sexopathology2-thumb.jpg",
     "id": 9
   },
   {
     "title": "Схема-терапия 2017",
     "alt": "Схема-терапия 2017",
-    "src": "./img/cert/schema.jpg",
+    "image": "./img/cert/schema.jpg",
     "thumb": "./img/cert/thumbs/schema-thumb.jpg",
     "id": 10
   },
   {
     "title": "Системно-феноменологическая психотерапия 2016",
     "alt": "Системно-феноменологическая психотерапия 2016",
-    "src": "./img/cert/sys-fem-psy.webp",
+    "image": "./img/cert/sys-fem-psy.webp",
     "thumb": "./img/cert/thumbs/sys-fem-psy-thumb.jpg",
     "id": 11
   },
   {
     "title": "Когнитивно-поведенческая терапия 2016",
     "alt": "Когнитивно-поведенческая терапия 2016",
-    "src": "./img/cert/cognipov.webp",
+    "image": "./img/cert/cognipov.webp",
     "thumb": "./img/cert/thumbs/cognipov-thumb.jpg",
     "id": 12
   },
   {
     "title": "Бодинамическая терапия 2013",
     "alt": "Бодинамическая терапия 2013",
-    "src": "./img/cert/bodynamic-therapy.webp",
+    "image": "./img/cert/bodynamic-therapy.webp",
     "thumb": "./img/cert/thumbs/bodynamic-therapy-thumb.jpg",
     "id": 13
   },
   {
     "title": "Холотропное дыхание 2012",
     "alt": "Холотропное дыхание 2012",
-    "src": "./img/cert/holdih.webp",
+    "image": "./img/cert/holdih.webp",
     "thumb": "./img/cert/thumbs/holdih-thumb.jpg",
     "id": 14
   },
   {
     "title": "Процессуальный интенсив по отношениям 2011",
     "alt": "Процессуальный интенсив по отношениям 2011",
-    "src": "./img/cert/procterap2.webp",
+    "image": "./img/cert/procterap2.webp",
     "thumb": "./img/cert/thumbs/procterap2-thumb.jpg",
     "id": 15
   },
   {
     "title": "Основы процессуальной терапии 2010",
     "alt": "Основы процессуальной терапии 2010",
-    "src": "./img/cert/osn-proc-therapy.webp",
+    "image": "./img/cert/osn-proc-therapy.webp",
     "thumb": "./img/cert/thumbs/osn-proc-therapy-thumb.jpg",
     "id": 16
   },
   {
     "title": "Диплом психолога 2010",
     "alt": "Диплом психолога 2010",
-    "src": "./img/cert/psy-diploma.webp",
+    "image": "./img/cert/psy-diploma.webp",
     "thumb": "./img/cert/thumbs/psy-diploma-thumb.jpg",
     "id": 17
   },
   {
     "title": "Холодинамика 2007",
     "alt": "Холодинамика 2007",
-    "src": "./img/cert/holdnam.webp",
+    "image": "./img/cert/holdnam.webp",
     "thumb": "./img/cert/thumbs/holdnam-thumb.jpg",
     "id": 18
   },
   {
     "title": "Семейная психология и психотерапия 2007",
     "alt": "Семейная психология и психотерапия 2007",
-    "src": "./img/cert/sempsih.jpg",
+    "image": "./img/cert/sempsih.jpg",
     "thumb": "./img/cert/thumbs/sempsih-thumb.jpg",
     "id": 19
   }
