@@ -10,6 +10,7 @@ import { Container } from './components/Container/Container';
 import { Story } from './components/Story/Story';
 import { Problems } from './components/Problems/Problems';
 import { Diplomas } from './components/Diplomas/Diplomas';
+import { Experience } from './components/Experience/Experience';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Story />
         <Problems />
         <Diplomas />
-        <Problems />
+        <Experience />
       </Container>
     </main>
   );
