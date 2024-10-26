@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./List.module.scss";
 import { ListItem } from "./ListItem/ListItem";
-import data from "../../../../public/data/preferences.json";
+import data from "../../../data/preferences.json";
 
 export const List = () => {
   return (
