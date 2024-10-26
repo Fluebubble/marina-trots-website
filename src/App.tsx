@@ -11,6 +11,7 @@ import { Story } from './components/Story/Story';
 import { Problems } from './components/Problems/Problems';
 import { Diplomas } from './components/Diplomas/Diplomas';
 import { Experience } from './components/Experience/Experience';
+import { PsyDirections } from './components/PsyDirections/PsyDirections';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Problems />
         <Diplomas />
         <Experience />
+        <PsyDirections />
       </Container>
     </main>
   );
