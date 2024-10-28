@@ -8,7 +8,7 @@ export const List = () => {
     <div className={styles.wrapper}>
       <dl className={styles.list}>
         {data.map(({ id, title, text }) => (
-          <ListItem key={id} title={title} text={text} />
+          <ListItem key={id} title={`${id}. ${title}`} text={text} />
         ))}
       </dl>
     </div>
