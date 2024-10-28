@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./ListItem.module.scss";
+import styles from "./FAQItem.module.scss";
 import cn from "classnames";
 
 interface Props {

@@ -1,9 +1,16 @@
 import React from "react";
 import styles from "./FAQList.module.scss";
-import data from "../../data/psy-directions.json";
 import { ListItem } from "./FAQItem/FAQItem";
 
-export const FAQList = () => {
+interface Props {
+  data: {
+    id: number;
+    title: string;
+    text: string;
+  }[];
+}
+
+export const FAQList: React.FC<Props> = ({ data }) => {
   return (
     <div className={styles.wrapper}>
       <dl className={styles.list}>
