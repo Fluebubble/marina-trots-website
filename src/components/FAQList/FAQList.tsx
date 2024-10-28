@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./FAQList.module.scss";
-import { ListItem } from "./FAQItem/FAQItem";
+import { FAQItem } from "./FAQItem/FAQItem";
 
 interface Props {
   data: {
@@ -14,8 +14,8 @@ export const FAQList: React.FC<Props> = ({ data }) => {
   return (
     <div className={styles.wrapper}>
       <dl className={styles.list}>
-        {data.map(({ id, title, text }) => (
-          <ListItem key={id} title={`${id}. ${title}`} text={text} />
+        {data.map(({ id, title, text }, idx) => (
+          <FAQItem key={id} title={title} text={text} index={idx} />
         ))}
       </dl>
     </div>

@@ -5,9 +5,10 @@ import cn from "classnames";
 interface Props {
   title: string;
   text: string;
+  index: number;
 }
 
-export const ListItem: React.FC<Props> = ({ title, text }) => {
+export const FAQItem: React.FC<Props> = ({ title, text, index }) => {
   const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
   const handleToggleDescription = () => {
@@ -22,7 +23,7 @@ export const ListItem: React.FC<Props> = ({ title, text }) => {
           onClick={handleToggleDescription}
           // data-direction="direction1"
         >
-          <span className={styles["button-name"]}>{title}</span>
+          <span className={styles["button-name"]}>{`${index + 1}. ${title}`}</span>
           <svg className={styles["button-image"]}>
             <use href="./img/sprite/symbol-defs-opti.svg#expand"></use>
           </svg>
