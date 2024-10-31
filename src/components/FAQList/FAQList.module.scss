@@ -1,18 +1,35 @@
 .wrapper {
   display: flex;
-  margin: 40px auto 0;
-  width: fit-content;
+  flex-direction: column;
   gap: 10px;
+  margin: 40px auto 0;
   // padding: 10px;
+
+  @media screen and (min-width: 768px) {
+    // margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки равной ширины */
+    // gap: 10px;
+  }
 }
 
 .list {
+  flex: 1;
   position: relative;
-  margin: 0 auto;
+  // margin: 0 auto;
   display: flex;
   gap: 15px;
   flex-direction: column;
-  // @media screen and (min-width: 1200px) {
 
-  // }
+  @media screen and (min-width: 1200px) {
+    // margin: auto;
+  }
+}
+
+.first-column {
+  margin-left: auto;
+}
+
+.second-column {
+  margin-right: auto;
 }

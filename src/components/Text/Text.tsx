@@ -1,15 +1,15 @@
-import React from 'react';
-import styles from './Text.module.scss';
+import React from "react";
+import styles from "./Text.module.scss";
 
 interface Props {
-  text: string;
+  children: string;
 }
 
-export const Text: React.FC<Props> = ({ text }) => {
+export const Text: React.FC<Props> = ({ children }) => {
   return (
     <div className={styles.wrapper}>
       <p className={styles.text}>
-        {text}
+        {children}+
         {/* Говорят, что только трудности заставляют человека развиваться и
         познавать себя. Не знаю, как это относится к большинству людей, но это
         точно про меня. Именно благодаря тому, что в какой-то момент своей жизни

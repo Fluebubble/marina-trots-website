@@ -21,17 +21,11 @@ export const FAQItem: React.FC<Props> = ({ title, text, index }) => {
         <button
           className={styles.button}
           onClick={handleToggleDescription}
-          // data-direction="direction1"
         >
-          <span className={styles["button-name"]}>{`${index + 1}. ${title}`}</span>
+          <span className={styles["button-name"]}>{`${index}. ${title}`}</span>
           <svg className={styles["button-image"]}>
             <use href="./img/sprite/symbol-defs-opti.svg#expand"></use>
           </svg>
-          {/* <img
-            src="img/svg-icons/expand.svg"
-            alt="Показать больше"
-            className={styles["button-image"]}
-          /> */}
         </button>
       </dt>
       <dd
@@ -39,7 +33,6 @@ export const FAQItem: React.FC<Props> = ({ title, text, index }) => {
           "is-hidden": !isDescriptionExpanded,
           [styles.description]: isDescriptionExpanded,
         })}
-        data-type="description"
       >
         <p className="text">{text}</p>
       </dd>
