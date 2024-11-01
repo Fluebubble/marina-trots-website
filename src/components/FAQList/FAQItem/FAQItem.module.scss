@@ -83,4 +83,12 @@
   min-width: 45px;
   width: 45px;
   height: 45px;
+
+  transform: rotate(0deg);
+  transition: transform 500ms ease-in-out;
+
+  &--expanded {
+    transform: rotate(45deg);
+    transition: transform 500ms ease-in-out;
+  }
 }

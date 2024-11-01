@@ -18,12 +18,13 @@ export const FAQItem: React.FC<Props> = ({ title, text, index }) => {
   return (
     <div className={styles.item}>
       <dt className={styles.name}>
-        <button
-          className={styles.button}
-          onClick={handleToggleDescription}
-        >
+        <button className={styles.button} onClick={handleToggleDescription}>
           <span className={styles["button-name"]}>{`${index}. ${title}`}</span>
-          <svg className={styles["button-image"]}>
+          <svg
+            className={cn(styles["button-image"], {
+              [styles["button-image--expanded"]]: isDescriptionExpanded,
+            })}
+          >
             <use href="./img/sprite/symbol-defs-opti.svg#expand"></use>
           </svg>
         </button>
