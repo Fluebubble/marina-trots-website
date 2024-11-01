@@ -26,7 +26,7 @@ export const FAQList: React.FC<Props> = ({ data }) => {
       ) : (
         <dl className={styles.list}>
           {data.map(({ id, title, text }, idx) => (
-            <FAQItem key={id} title={title} text={text} index={idx} />
+            <FAQItem key={id} title={title} text={text} index={idx + 1} />
           ))}
         </dl>
       )}

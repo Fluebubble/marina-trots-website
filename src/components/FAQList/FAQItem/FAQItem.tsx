@@ -34,6 +34,7 @@ export const FAQItem: React.FC<Props> = ({ title, text, index }) => {
           "is-hidden": !isDescriptionExpanded,
           [styles.description]: isDescriptionExpanded,
         })}
+        onClick={handleToggleDescription}
       >
         <p className="text">{text}</p>
       </dd>
