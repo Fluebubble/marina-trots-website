@@ -30,9 +30,9 @@ export const FAQItem: React.FC<Props> = ({ title, text, index }) => {
         </button>
       </dt>
       <dd
-        className={cn({
-          "is-hidden": !isDescriptionExpanded,
-          [styles.description]: isDescriptionExpanded,
+        className={cn(styles.description, {
+          [styles["description--expanded"]]: isDescriptionExpanded,
+          [styles["description--collapsed"]]: !isDescriptionExpanded,
         })}
         onClick={handleToggleDescription}
       >
