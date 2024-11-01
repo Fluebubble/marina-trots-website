@@ -1,5 +1,9 @@
 .item {
   position: relative;
+
+  @media screen and (min-width: 1200px) {
+    width: 500px;
+  }
 }
 // .psy-direction__item:nth-child(3) {
 //   float: right;
@@ -50,6 +54,7 @@
   }
 }
 .description {
+  white-space: pre-wrap;
   z-index: 10;
   position: relative;
   top: -50px;

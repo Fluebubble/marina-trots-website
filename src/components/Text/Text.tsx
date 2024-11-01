@@ -2,14 +2,14 @@ import React from "react";
 import styles from "./Text.module.scss";
 
 interface Props {
-  children: string;
+  text: string;
 }
 
-export const Text: React.FC<Props> = ({ children }) => {
+export const Text: React.FC<Props> = ({ text }) => {
   return (
     <div className={styles.wrapper}>
       <p className={styles.text}>
-        {children}+
+        {text}
         {/* Говорят, что только трудности заставляют человека развиваться и
         познавать себя. Не знаю, как это относится к большинству людей, но это
         точно про меня. Именно благодаря тому, что в какой-то момент своей жизни
