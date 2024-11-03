@@ -13,6 +13,7 @@ import { Diplomas } from "./components/Diplomas/Diplomas";
 import { Experience } from "./components/Experience/Experience";
 import { PsyDirections } from "./components/PsyDirections/PsyDirections";
 import { QuestionsAndAnswers } from "./components/QuestionsAndAnswers/QuestionsAndAnswers";
+import { ContactForm } from "./components/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Experience />
         <PsyDirections />
         <QuestionsAndAnswers />
+        <ContactForm />
       </Container>
     </main>
   );
