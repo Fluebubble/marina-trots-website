@@ -26,7 +26,7 @@ export const Experience = () => {
           вероятности, что она станет влиять на качество жизни в разных сферах.
           `}
         />
-        <div className={cn("text-bg", styles["text-bg"])}>
+        {/* <div className={cn("text-bg", styles["text-bg"])}>
           <p className={styles.text}>
             Уже более 13 лет я отдала делу своей жизни и остаюсь благодарна
             тому, что оказание помощи другим делает меня воистину счастливой.
@@ -46,7 +46,7 @@ export const Experience = () => {
             вероятности, что она станет влиять на качество жизни в разных
             сферах.
           </p>
-        </div>
+        </div> */}
         <List />
       </div>
     </section>
