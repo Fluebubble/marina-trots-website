@@ -3,10 +3,11 @@ import styles from "./ContactForm.module.scss";
 import { Title } from "../Title/Title";
 import { Contacts } from "./Contacts/Contacts";
 import { Form } from "./Form/Form";
+import cn from "classnames";
 
 export const ContactForm = () => {
   return (
-    <section className="section feedback" id="feedback">
+    <section className={cn("section", styles["contact-form"])} id="feedback">
       <Title text="Свяжитесь со мной" />
       <div className={styles.content}>
         {/* <form action="" className="form" id="form" name="bottom-form">
