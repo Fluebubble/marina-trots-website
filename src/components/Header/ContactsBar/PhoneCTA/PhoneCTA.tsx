@@ -7,7 +7,7 @@ export const PhoneCTA = () => {
       href="tel:+380631095844"
       className={styles['phone']}
     >
-      <span className={styles['phone__cta']}>Остались вопросы? Звоните!</span>
+      <span className={styles['phone__cta']}>Залишились питання? Дзвоніть!</span>
       <span className={styles['phone__number']}>+38 063 109 58 44</span>
     </a>
   );
