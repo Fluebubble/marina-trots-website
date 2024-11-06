@@ -4,7 +4,6 @@ import { List } from "./List/List";
 import { Certificate } from "../../types/certificate";
 
 export const Diplomas = () => {
-  // const [certificates, setCertificates] = useState([]);
   const [certificates, setCertificates] = useState<Certificate[]>([]);
 
   useEffect(() => {
@@ -29,14 +28,8 @@ export const Diplomas = () => {
 
   return (
     <section className="section">
-      <Title text="Дипломы и сертификаты" />
+      <Title text="Дипломи та сертифікати" />
       <List certificates={certificates} />
-      {/* <button
-        type="button"
-        className="certificates-gallery__button"
-      >
-        Показать все документы
-      </button> */}
     </section>
   );
 };

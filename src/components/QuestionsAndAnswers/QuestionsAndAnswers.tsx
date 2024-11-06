@@ -6,7 +6,7 @@ import data from "../../data/faq.json";
 export const QuestionsAndAnswers = () => {
   return (
     <section className="section">
-      <Title text="Часто задаваемые вопросы" />
+      <Title text="Часті питання" />
       <FAQList data={data} />
     </section>
   );

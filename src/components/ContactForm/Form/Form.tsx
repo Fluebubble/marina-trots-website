@@ -4,7 +4,7 @@ import cn from "classnames";
 import { sendDataToBot } from "../../../api/form-to-telegram";
 
 export const Form = () => {
-  const [name, setName] = useState("Name");
+  const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
 
   const submitFormHandler = (e: React.FormEvent<HTMLFormElement>) => {
@@ -24,17 +24,17 @@ export const Form = () => {
       onSubmit={submitFormHandler}
     >
       <p className={cn("cta", styles.cta)}>
-        Оставьте заявку в данной форме и я свяжусь с Вами в ближайшее время
+      Залишіть заявку в цій формі і я зв&apos;яжуся з Вами найближчим часом
       </p>
       <label className={styles.label} htmlFor="name">
-        Как вас зовут?
+        Як вас звати?
       </label>
       <input
         className={styles.input}
         type="text"
         id="name"
         name="name"
-        placeholder="Ваше имя"
+        placeholder="Ваше ім'я"
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
@@ -51,9 +51,9 @@ export const Form = () => {
         onChange={(e) => setPhone(e.target.value)}
       />
       <button type="submit" className={styles.button}>
-        Оставить заявку
+        Залишити заявку
       </button>
-      <p className={styles.info}>*Ваши данные никуда не передаются</p>
+      <p className={styles.info}>*Ваші дані нікуди не передаються</p>
     </form>
   );
 };

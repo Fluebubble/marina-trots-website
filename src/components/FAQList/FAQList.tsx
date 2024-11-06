@@ -11,13 +11,8 @@ interface Props {
 }
 
 export const FAQList: React.FC<Props> = ({ data }) => {
-  console.log(data);
-  console.log("FAQList render");
-  // console.log(isTabket);
-
   const isTablet = useMediaQuery({ minWidth: DeviceSizes.tablet });
   const renderTwoColumn = data.length > 1 && isTablet;
-  // console.log(data.length > 1, "datalenght");
 
   return (
     <div className={styles.wrapper}>

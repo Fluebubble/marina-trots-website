@@ -1,11 +1,11 @@
-import React from 'react';
-import styles from './Subtitle.module.scss';
+import React from "react";
+import styles from "./Subtitle.module.scss";
 
 export const Subtitle = () => {
   return (
     <div className={styles.wrapper}>
       <p className={styles.text}>
-        Консультация психолога - начало экологичного отношения к себе
+        Консультація психолога – початок екологічного ставлення до себе
       </p>
     </div>
   );

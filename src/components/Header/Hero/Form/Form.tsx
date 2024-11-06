@@ -28,7 +28,7 @@ export const Form = () => {
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
       />
-      <button className={styles.button}>Оставить заявку</button>
+      <button className={styles.button}>Залишити заявку</button>
     </form>
   );
 };

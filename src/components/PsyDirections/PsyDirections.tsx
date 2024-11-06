@@ -7,7 +7,7 @@ import data from "../../data/psy-directions.json";
 export const PsyDirections = () => {
   return (
     <section className="section psy-directions">
-      <Title text="Направления с которыми я работаю" />
+      <Title text="Напрями з якими я працюю" />
       <FAQList data={data} />
     </section>
   );

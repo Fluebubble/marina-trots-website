@@ -4,7 +4,7 @@ import styles from "./Contacts.module.scss";
 export const Contacts = () => {
   return (
     <address className={styles.wrapper}>
-      <p className="cta">Вы можете позвонить мне по телефону:</p>
+      <p className="cta">Вы можете подзвонити мені по телефону:</p>
       <div className={styles["phone-list"]}>
         <a href="tel:+38(063)1095844" className={styles["phone-list__item"]}>
           +38 (063) 109 58 44
@@ -14,7 +14,7 @@ export const Contacts = () => {
         </a>
       </div>
       <p className={styles["messanger-cta"]}>
-        Или написать в удобный для вас мессенджер:
+        Чи написати в зручний для вас месенджер:
       </p>
       <ul className={styles["messanger-list"]}>
         <li className={styles["messanger-item"]}>
