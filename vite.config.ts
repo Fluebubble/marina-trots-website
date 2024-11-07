@@ -11,6 +11,7 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   },
+  base: "/marina-trots-website",
   plugins: [
     react(),
     Checker({
