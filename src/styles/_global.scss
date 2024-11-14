@@ -3,7 +3,22 @@ html {
 }
 
 body {
-  background-color: #9ca8e1;
+  // body {
+  // background-color: #f7f4f2; /* мягкий бежевый цвет */
+  // background-color: #fdfdfd;
+  // background-color: ;
+
+  // background: linear-gradient(to bottom, #9ca8e1, #e8ebf9);
+  // body {
+  // background: radial-gradient(circle, #9ca8e1, #d6daf3, #ffffff);
+  // body {
+  background: linear-gradient(to right, #9ca8e1, #679bcd, #5d82e6),
+    url("https://www.transparenttextures.com/patterns/white-mesh.png");
+  background-blend-mode: overlay; /* Смешиваем текстуру с градиентом */
+  // }
+  // }
+
+  // }
 }
 
 .is-hidden {

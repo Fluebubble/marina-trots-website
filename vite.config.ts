@@ -9,8 +9,10 @@ import eslint from "vite-plugin-eslint";
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    outDir: 'dist'
+    outDir: "dist",
   },
+  // base: "/marina-trots-website",
+  base: process.env.VITE_BASE_URL,
   plugins: [
     react(),
     Checker({
