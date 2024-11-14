@@ -16,8 +16,9 @@ export const Diplomas = () => {
         }
 
         const data = await response.json();
+        const reversedCerts = data.reverse();
 
-        setCertificates(data);
+        setCertificates(reversedCerts);
       } catch (error) {
         console.error("Ошибка при загрузке данных:", error);
       }
