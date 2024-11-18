@@ -22,6 +22,7 @@
 .image-container {
   width: 100%;
   height: 160px;
+  border-radius: 18px;
   overflow: hidden;
 
   @media screen and (min-width: 768px) {
@@ -31,10 +32,11 @@
 }
 
 .image {
-  border-radius: 18px;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+  // border-radius: 18px;
+  height: inherit;
+  // width: 100%;
+  // object-fit: cover;
+  // object-position: center;
   
   @media screen and (min-width: 768px) {
     height: auto;
