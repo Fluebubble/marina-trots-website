@@ -12,7 +12,8 @@ export default defineConfig({
     outDir: "dist",
   },
   // base: "/marina-trots-website",
-  base: process.env.VITE_BASE_URL,
+  base: "./",
+  // base: process.env.NODE_ENV === 'production' ? '/marina-trots-website/' : '/',
   plugins: [
     react(),
     Checker({

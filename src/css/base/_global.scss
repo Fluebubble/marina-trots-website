@@ -3,14 +3,14 @@ html {
 }
 
 body {
-  // background-image: url(../img/elements/background-mobile.jpg);
+  // background-image: url(./img/elements/background-mobile.jpg);
   background-color: #757fc5;
   // background-size: 100% auto;
   // background-size: cover;
   // // background-position: right top;
   // background-repeat: no-repeat;
   @media screen and (min-width: 1200px) {
-    // background-image: url(../img/elements/background.png);
+    // background-image: url(./img/elements/background.png);
   }
   // zoom: 80%;
 }

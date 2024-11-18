@@ -17,7 +17,7 @@ export const Hero = () => {
         <MainTitle />
         <Subtitle />
         <Photo
-          image={'img/hero/main-photo.jpg'}
+          image={'./img/hero/main-photo.jpg'}
           alt="Марина Троц"
         />
         {!isMobile && <Form />}

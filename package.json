@@ -1,7 +1,8 @@
 {
-  "name": "vite-project",
+  "name": "marina-trots-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://fluebubble.github.io/marina-trots-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
