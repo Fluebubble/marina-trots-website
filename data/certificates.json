@@ -2,155 +2,155 @@
   {
     "title": "Семейная психология и психотерапия 2007",
     "alt": "Семейная психология и психотерапия 2007",
-    "image": "/img/cert/sempsih.jpg",
-    "thumb": "/img/cert/thumbs/sempsih-thumb.jpg",
+    "image": "./img/cert/sempsih.jpg",
+    "thumb": "./img/cert/thumbs/sempsih-thumb.jpg",
     "id": 1
   },
   {
     "title": "Холодинамика 2007",
     "alt": "Холодинамика 2007",
-    "image": "/img/cert/holdnam.webp",
-    "thumb": "/img/cert/thumbs/holdnam-thumb.jpg",
+    "image": "./img/cert/holdnam.webp",
+    "thumb": "./img/cert/thumbs/holdnam-thumb.jpg",
     "id": 2
   },
   {
     "title": "Диплом психолога 2010",
     "alt": "Диплом психолога 2010",
-    "image": "/img/cert/psy-diploma.webp",
-    "thumb": "/img/cert/thumbs/psy-diploma-thumb.jpg",
+    "image": "./img/cert/psy-diploma.webp",
+    "thumb": "./img/cert/thumbs/psy-diploma-thumb.jpg",
     "id": 3
   },
   {
     "title": "Основы процессуальной терапии 2010",
     "alt": "Основы процессуальной терапии 2010",
-    "image": "/img/cert/osn-proc-therapy.webp",
-    "thumb": "/img/cert/thumbs/osn-proc-therapy-thumb.jpg",
+    "image": "./img/cert/osn-proc-therapy.webp",
+    "thumb": "./img/cert/thumbs/osn-proc-therapy-thumb.jpg",
     "id": 4
   },
   {
     "title": "Процессуальный интенсив по отношениям 2011",
     "alt": "Процессуальный интенсив по отношениям 2011",
-    "image": "/img/cert/procterap2.webp",
-    "thumb": "/img/cert/thumbs/procterap2-thumb.jpg",
+    "image": "./img/cert/procterap2.webp",
+    "thumb": "./img/cert/thumbs/procterap2-thumb.jpg",
     "id": 5
   },
   {
     "title": "Холотропное дыхание 2012",
     "alt": "Холотропное дыхание 2012",
-    "image": "/img/cert/holdih.webp",
-    "thumb": "/img/cert/thumbs/holdih-thumb.jpg",
+    "image": "./img/cert/holdih.webp",
+    "thumb": "./img/cert/thumbs/holdih-thumb.jpg",
     "id": 6
   },
   {
     "title": "Бодинамическая терапия 2013",
     "alt": "Бодинамическая терапия 2013",
-    "image": "/img/cert/bodynamic-therapy.webp",
-    "thumb": "/img/cert/thumbs/bodynamic-therapy-thumb.jpg",
+    "image": "./img/cert/bodynamic-therapy.webp",
+    "thumb": "./img/cert/thumbs/bodynamic-therapy-thumb.jpg",
     "id": 7
   },
   {
     "title": "Когнитивно-поведенческая терапия 2016",
     "alt": "Когнитивно-поведенческая терапия 2016",
-    "image": "/img/cert/cognipov.webp",
-    "thumb": "/img/cert/thumbs/cognipov-thumb.jpg",
+    "image": "./img/cert/cognipov.webp",
+    "thumb": "./img/cert/thumbs/cognipov-thumb.jpg",
     "id": 8
   },
   {
     "title": "Системно-феноменологическая психотерапия 2016",
     "alt": "Системно-феноменологическая психотерапия 2016",
-    "image": "/img/cert/sys-fem-psy.webp",
-    "thumb": "/img/cert/thumbs/sys-fem-psy-thumb.jpg",
+    "image": "./img/cert/sys-fem-psy.webp",
+    "thumb": "./img/cert/thumbs/sys-fem-psy-thumb.jpg",
     "id": 9
   },
   {
     "title": "Схема-терапия 2017",
     "alt": "Схема-терапия 2017",
-    "image": "/img/cert/schema.jpg",
-    "thumb": "/img/cert/thumbs/schema-thumb.jpg",
+    "image": "./img/cert/schema.jpg",
+    "thumb": "./img/cert/thumbs/schema-thumb.jpg",
     "id": 10
   },
   {
     "title": "Сексология и сексопаталогия 2 2019",
     "alt": "Сексология и сексопаталогия 2 2019",
-    "image": "/img/cert/sexology-sexopathology2.webp",
-    "thumb": "/img/cert/thumbs/sexology-sexopathology2-thumb.jpg",
+    "image": "./img/cert/sexology-sexopathology2.webp",
+    "thumb": "./img/cert/thumbs/sexology-sexopathology2-thumb.jpg",
     "id": 11
   },
   {
     "title": "Healing Trauma 2022",
     "alt": "Сертификат Healing Trauma 2022",
-    "image": "/img/cert/healing-trauma.jpg",
-    "thumb": "/img/cert/thumbs/healing-trauma-thumb.jpg",
+    "image": "./img/cert/healing-trauma.jpg",
+    "thumb": "./img/cert/thumbs/healing-trauma-thumb.jpg",
     "id": 12
   },
   {
     "title": "Сексология и сексопаталогия 1 2019",
     "alt": "Сексология и сексопаталогия 1 2019",
-    "image": "/img/cert/sexology-sexopathology.webp",
-    "thumb": "/img/cert/thumbs/sexology-sexopathology-thumb.jpg",
+    "image": "./img/cert/sexology-sexopathology.webp",
+    "thumb": "./img/cert/thumbs/sexology-sexopathology-thumb.jpg",
     "id": 13
   },
   {
     "title": "Пропедевтика психиатрии 2020",
     "alt": "Сертификат Пропедевтика психиатрии 2020",
-    "image": "/img/cert/proped-therapy.webp",
-    "thumb": "/img/cert/thumbs/proped-therapy-thumb.jpg",
+    "image": "./img/cert/proped-therapy.webp",
+    "thumb": "./img/cert/thumbs/proped-therapy-thumb.jpg",
     "id": 14
   },
   {
     "title": "Курс MBSR 2020",
     "alt": "Курс MBSR 2020",
-    "image": "/img/cert/MBSR.png",
-    "thumb": "/img/cert/thumbs/MBSR-thumb.jpg",
+    "image": "./img/cert/MBSR.png",
+    "thumb": "./img/cert/thumbs/MBSR-thumb.jpg",
     "id": 15
   },
   {
     "title": "Когнитивно-поведенческая терапия 2021",
     "alt": "Сертификат Когнитивно-поведенческая терапия 2021",
-    "image": "/img/cert/cognitive-pov-therapy.jpg",
-    "thumb": "/img/cert/thumbs/cognitive-pov-therapy-thumb.jpg",
+    "image": "./img/cert/cognitive-pov-therapy.jpg",
+    "thumb": "./img/cert/thumbs/cognitive-pov-therapy-thumb.jpg",
     "id": 16
   },
   {
     "title": "Интеграция майндфулнес 2021",
     "alt": "Сертификат Интеграция майндфулнес 2021",
-    "image": "/img/cert/integration-mindfulness.webp",
-    "thumb": "/img/cert/thumbs/integration-mindfulness-thumb.jpg",
+    "image": "./img/cert/integration-mindfulness.webp",
+    "thumb": "./img/cert/thumbs/integration-mindfulness-thumb.jpg",
     "id": 17
   },
   {
     "title": "EABCT 2021",
     "alt": "Сертификат EABCT 2021",
-    "image": "/img/cert/EABCT_Accreditation.webp",
-    "thumb": "/img/cert/thumbs/EABCT_Accreditation-thumb.jpg",
+    "image": "./img/cert/EABCT_Accreditation.webp",
+    "thumb": "./img/cert/thumbs/EABCT_Accreditation-thumb.jpg",
     "id": 18
   },
   {
     "title": "Healing Trauma 2022",
     "alt": "Сертификат Healing Trauma 2022",
-    "image": "/img/cert/healing-trauma.jpg",
-    "thumb": "/img/cert/thumbs/healing-trauma-thumb.jpg",
+    "image": "./img/cert/healing-trauma.jpg",
+    "thumb": "./img/cert/thumbs/healing-trauma-thumb.jpg",
     "id": 19
   },
   {
     "title": "Brainspotting 2023",
     "alt": "Brainspotting 2023",
-    "image": "/img/cert/brainspotting.jpg",
-    "thumb": "/img/cert/thumbs/brainspotting-thumb.jpg",
+    "image": "./img/cert/brainspotting.jpg",
+    "thumb": "./img/cert/thumbs/brainspotting-thumb.jpg",
     "id": 20
   },
   {
     "title": "Rewind Technique 2024",
     "alt": "Rewind Technique 2024",
-    "image": "/img/cert/rewind-training.jpg",
-    "thumb": "/img/cert/thumbs/rewind-training-thumb.jpg",
+    "image": "./img/cert/rewind-training.jpg",
+    "thumb": "./img/cert/thumbs/rewind-training-thumb.jpg",
     "id": 21
   },
   {
     "title": "Shapes of Grief 2024",
     "alt": "Shapes of Grief 2024",
-    "image": "/img/cert/shapes-of-grief.jpg",
-    "thumb": "/img/cert/thumbs/shapes-of-grief-thumb.jpg",
+    "image": "./img/cert/shapes-of-grief.jpg",
+    "thumb": "./img/cert/thumbs/shapes-of-grief-thumb.jpg",
     "id": 22
   }
 ]
