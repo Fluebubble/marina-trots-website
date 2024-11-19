@@ -21,7 +21,7 @@ export const Form = () => {
       onSubmit={submitFormHandler}
     >
       <input
-        type="number"
+        type="text"
         className={styles.input}
         placeholder="Ваш номер"
         name="number"
