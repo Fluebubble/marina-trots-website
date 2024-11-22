@@ -9,9 +9,6 @@ export const Contacts = () => {
         <a href="tel:+38(063)1095844" className={styles["phone-list__item"]}>
           +38 (063) 109 58 44
         </a>
-        <a href="tel:+38(067)2171180" className={styles["phone-list__item"]}>
-          +38 (067) 217 11 80
-        </a>
       </div>
       <p className={styles["messanger-cta"]}>
         Чи написати в зручний для вас месенджер:
